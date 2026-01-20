@@ -1,0 +1,20 @@
+{
+  "name": "Улучшения узлов",
+  "icon": "bloodmagic:speed_upgrade",
+  "category": "bloodmagic:demon_will",
+  "extra_recipe_mappings": {
+    "bloodmagic:speed_upgrade": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "heading": "Улучшение скорости",
+      "recipe": "bloodmagic:speed_upgrade",
+      "text": "$(item)Улучшение скорости$() увеличивает скорость передачи предметов через $(l:bloodmagic:demon_will/item_routing/routing_nodes)Узлы$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Установите улучшение в узел через его интерфейс."
+    }
+  ]
+}

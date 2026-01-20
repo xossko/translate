@@ -1,0 +1,17 @@
+{
+  "name": "Стандартный фильтр",
+  "icon": "bloodmagic:standard_item_filter",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "heading": "Стандартный фильтр",
+      "recipe": "bloodmagic:standard_item_filter",
+      "text": "$(item)Стандартный фильтр$() фильтрует предметы по типу."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Настройте его, поместив предметы в слоты фильтра."
+    }
+  ]
+}
