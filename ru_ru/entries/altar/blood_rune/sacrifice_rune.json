@@ -1,0 +1,25 @@
+{
+  "name": "Руна жертвоприношения",
+  "icon": "bloodmagic:sacrificerune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна жертвоприношения$() увеличивает количество $(blood)Сущности жизни$(), получаемой Кровавым алтарём от источников, которые отнимают здоровье у мобов (то есть не у игрока). Каждая руна даёт +10% аддитивно."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_sacrifice"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_sac_2",
+      "text": "С помощью $(item)Нетеритового лома$() и $(item)Замысловатых деталей адской ковки$() (добываются в $(l:bloodmagic:dungeons/endless_realm)Царстве Демонов$(/l)) можно удвоить силу $(item)Руны жертвоприношения$(): она будет давать +20% аддитивно за руну."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/sac",
+      "text": "Если передумаете, рецепт можно обратить в ARC."
+    }
+  ]
+}
