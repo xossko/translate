@@ -1,0 +1,60 @@
+{
+  "name": "Самоцвет души",
+  "icon": "bloodmagic:soul_gem_petty",
+  "category": "bloodmagic:demon_will",
+  "extra_recipe_mappings": {
+    "bloodmagic:soul_gem_petty": 0,
+    "bloodmagic:soul_gem_lesser": 2,
+    "bloodmagic:soul_gem_common": 4,
+    "bloodmagic:soul_gem_greater": 6,
+    "bloodmagic:soul_gem_grand": 8
+  },
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Малый самоцвет души",
+      "recipe": "bloodmagic:altar/soul_gem_petty",
+      "text": "$(item)Самоцветы души$() хранят $(raw)Волю$() из $(l:bloodmagic:demon_will/will_manipulation/aura)Ауры$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы наполнить $(item)Самоцвет души$(), поместите его в место, где есть $(raw)Воля$() в $(l:bloodmagic:demon_will/will_manipulation/aura)Ауре$(/l), и он постепенно поглотит её."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Меньший самоцвет души",
+      "recipe": "bloodmagic:altar/soul_gem_lesser"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Меньший самоцвет души$() вмещает больше $(raw)Воли$()."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Обычный самоцвет души",
+      "recipe": "bloodmagic:altar/soul_gem_common"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Обычный самоцвет души$() вмещает значительно больше $(raw)Воли$()."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Великий самоцвет души",
+      "recipe": "bloodmagic:altar/soul_gem_greater"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Великий самоцвет души$() вмещает огромное количество $(raw)Воли$()."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Грандиозный самоцвет души",
+      "recipe": "bloodmagic:altar/soul_gem_grand"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Грандиозный самоцвет души$() — самый вместительный из всех."
+    }
+  ]
+}

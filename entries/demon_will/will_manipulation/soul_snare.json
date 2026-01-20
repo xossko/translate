@@ -1,0 +1,17 @@
+{
+  "name": "Ловушка для душ",
+  "icon": "bloodmagic:soul_snare",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "heading": "Ловушка для душ",
+      "recipe": "bloodmagic:soul_snare",
+      "text": "$(item)Ловушка для душ$() собирает $(raw)Волю$() с убитых демонов."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Поместите ловушку на землю и убивайте демонов поблизости — $(raw)Воля$() автоматически попадёт в ловушку."
+    }
+  ]
+}
