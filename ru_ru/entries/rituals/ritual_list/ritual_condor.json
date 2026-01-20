@@ -1,0 +1,22 @@
+{
+  "name": "Почтение кондора",
+  "icon": "minecraft:feather",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Почтение кондора",
+      "multiblock_id": "bloodmagic:condor",
+      "text": "Для более простого строительства используй $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный дивинер [Сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "condor"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "condor",
+      "page_type": "flightRange"
+    }
+  ]
+}
