@@ -1,0 +1,41 @@
+{
+  "name": "Слэйты",
+  "icon": "bloodmagic:blankslate",
+  "category": "bloodmagic:altar",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Слэйты$() — это особый предмет, который создаётся в Кровавом алтаре и используется во многих рецептах мода. Они представляют собой ступени прогрессии, начиная с $(item)Пустого слэйта$() и заканчивая более продвинутыми видами."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Пустой слэйт",
+      "recipe": "bloodmagic:altar/slate_blank",
+      "text": "Самый базовый слэйт, который изготавливается из камня в Кровавом алтаре."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Усиленный слэйт",
+      "recipe": "bloodmagic:altar/slate_reinforced",
+      "text": "Следующий уровень слэйтов; создаётся из Пустого слэйта и требует больше $(blood)LP$()."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Пропитанный слэйт",
+      "recipe": "bloodmagic:altar/slate_imbued",
+      "text": "Ещё более продвинутый слэйт; используется в рецептах среднего уровня и требует Алтарь более высокого уровня."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Демонический слэйт",
+      "recipe": "bloodmagic:altar/slate_demonic",
+      "text": "Продвинутый слэйт для поздней игры, требующий большой объём $(blood)LP$() и высокий уровень Кровавого алтаря."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Эфирный слэйт",
+      "recipe": "bloodmagic:altar/slate_ethereal",
+      "text": "Самый высокий уровень слэйтов; используется в самых мощных и дорогих рецептах."
+    }
+  ]
+}
