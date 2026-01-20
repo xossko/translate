@@ -1,0 +1,15 @@
+{
+  "name": "Демоническая Воля",
+  "icon": "bloodmagic:default_will",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(raw)Демоническая Воля$() — это эссенция, выделяющаяся при убийстве демонов. Её можно собирать с помощью $(l:bloodmagic:demon_will/will_manipulation/soul_snare)Ловушки для душ$(/l) или $(l:bloodmagic:demon_will/will_manipulation/tartaric_gems)Тартарических самоцветов$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(raw)Воля$() используется во многих рецептах и механиках Blood Magic."
+    }
+  ]
+}
