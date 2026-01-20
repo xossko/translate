@@ -1,0 +1,17 @@
+{
+  "name": "Демонический тигель",
+  "icon": "bloodmagic:demon_crucible",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Демонический тигель",
+      "recipe": "bloodmagic:altar/demon_crucible",
+      "text": "$(item)Демонический тигель$() преобразует $(raw)Волю$() из одного типа в другой."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Поместите $(raw)Чистую Волю$() и $(item)Кристалл Воли$() нужного типа в тигель, чтобы преобразовать $(raw)Волю$() в соответствующий тип."
+    }
+  ]
+}
