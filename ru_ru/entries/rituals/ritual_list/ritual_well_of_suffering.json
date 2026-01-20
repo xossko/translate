@@ -1,0 +1,41 @@
+{
+  "name": "Колодец страданий",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Колодец страданий",
+      "multiblock_id": "bloodmagic:well_of_suffering",
+      "text": "Для более простого строительства используй $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный дивинер [Сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "well_of_suffering",
+      "text_overrides": [
+        ["LP", "blood"],
+        ["blood altar", "l:bloodmagic:altar/blood_altar"]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Этот ритуал атакует мобов в своей зоне урона и направляет собранную $(blood)кровь$() в ближайший $(l:bloodmagic:altar/blood_altar)Кровавый алтарь$(). Положи в алтарь $(l:bloodmagic:altar/soul_network)кровавую сферу$(), при желании добавь несколько $(l:bloodmagic:altar/blood_rune/sacrifice_rune)рун жертвоприношения$() — и о запасах LP можно больше не думать… пока хватает мобов для подпитки."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "altar",
+      "text": "Ритуал может быть привязан только к одному алтарю одновременно.",
+      "text_overrides": [
+        ["Blood Altar", "l:bloodmagic:altar/blood_altar"],
+        [" Blood", "blood"]
+      ]
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "well_of_suffering",
+      "page_type": "damage",
+      "text": "С мобов всё равно будут выпадать обычные лут‑дропы, не требующие убийства игроком."
+    }
+  ]
+}
