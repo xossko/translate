@@ -1,0 +1,19 @@
+{
+  "name": "Регенерация",
+  "icon": "minecraft:potion{Potion:\"minecraft:regeneration\"}",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Регенерация I",
+      "recipe": "bloodmagic:alchemytable/potion_regeneration_1",
+      "text": "Восстанавливает здоровье со временем."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Регенерация II",
+      "recipe": "bloodmagic:alchemytable/potion_regeneration_2",
+      "text": "Восстанавливает здоровье быстрее."
+    }
+  ]
+}
