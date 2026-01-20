@@ -5,19 +5,19 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Увеличивает дальность подбора предмета игроком до 7 блоков, когда он активен. Включите/выключите, удерживая сигил в руке, затем, удерживая [$(k:sneak)] и нажав [$(k:use)]. $(br2)Потребляет 50 $(blood)LP$() каждые 5 секунд, пока активен."
+      "text": "Увеличивает радиус подбора предметов игроком до 7 блоков, пока активен. Включение/выключение: удерживая сигил в руке, зажмите [$(k:sneak)] и нажмите [$(k:use)]. $(br2)Потребляет 50 $(blood)LP$() каждые 5 секунд, пока активен."
     },
     {
       "type": "bloodmagic:crafting_2-step_sigil",
       "alchemy_table.heading": "Реагент магнетизма",
       "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_magnetism",
-      "array.heading": "Символ магнетизма",
+      "array.heading": "Сигил магнетизма",
       "array.recipe": "bloodmagic:array/magnetismsigil"
     },
     {
       "type": "patchouli:text",
       "flag": "mod:curios",
-      "text": "Поскольку у вас установлен $(thing)Curios API$(), вы можете использовать этот $(item)Сигил$() как брелок. Если вы хотите носить больше сувениров одновременно, рассмотрите возможность использования $(l:bloodmagic:alchemy_array/sigil/holding)Сигила владения $() или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)Размещенного обновления$() для вашей $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой брони$()."
+      "text": "Если установлен $(thing)Curios API$(), этот $(item)Сигил$() можно носить как аксессуар. Для большего числа аксессуаров используйте $(l:bloodmagic:alchemy_array/sigil/holding)Сигил хранения$(/l) или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)слотовый апгрейд$(/l) для $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой брони$(/l)."
     }
   ]
 }

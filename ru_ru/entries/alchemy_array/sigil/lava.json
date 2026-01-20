@@ -1,17 +1,17 @@
 {
-  "name": "Лавовый Сигил",
+  "name": "Сигил лавы",
   "icon": "bloodmagic:lavasigil",
   "category": "bloodmagic:alchemy_array/sigil",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Сестринский символ $(l:bloodmagic:alchemy_array/sigil/water)Сигила Воды$(/l). Нажмите [$(k:use)], удерживая $(item)Lava Сигил$(), чтобы создать на земле исходный блок $(fire)lava$() за $(blood)1000 LP$(). Созданный на $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Алхимическом массиве$(/l) с использованием $(item)Лавового реагента$() и $(item)Пустого слэйта,$() он высосет у вас 5 сердец, если у вас недостаточно LP в вашей $(l:bloodmagic:altar/soul_network)Сети души.$(/l)"
+      "text": "Парный сигил к $(l:bloodmagic:alchemy_array/sigil/water)Сигилу воды$(/l). Нажмите [$(k:use)], удерживая $(item)Сигил лавы$(), чтобы создать исходный блок $(fire)лавы$() за $(blood)1000 LP$(). Если в $(l:bloodmagic:altar/soul_network)Сети душ$(/l) недостаточно LP, будет отнято 5 сердец здоровья."
     },
     {
       "type": "bloodmagic:crafting_2-step_sigil",
       "alchemy_table.heading": "Лавовый реагент",
       "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_lava",
-      "array.heading": "Лавовый Сигил",
+      "array.heading": "Сигил лавы",
       "array.recipe": "bloodmagic:array/lavasigil",
       "array.text": "$(italic)ГОРЯЧО! НЕ ЕШЬТЕ$()"
     },
@@ -21,15 +21,15 @@
         "bloodmagic:images/entries/sigil/lava_sigil1.png",
         "bloodmagic:images/entries/sigil/lava_sigil2.png"
       ],
-      "title": "Массив Лавовых Сигил",
+      "title": "Крафт и применение",
       "border": true,
-      "text": "Лавовый знак рядом с его набором для изготовления и его основным назначением."
+      "text": "Сигил лавы: раскладка для крафта и основное назначение."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
       "heading": "Ведро лавы",
       "recipe": "bloodmagic:alchemytable/sigil_lava_bucket",
-      "text": "Более того, его можно использовать в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимическом столе$() для автоматизации производства $(fire)Ведер лавы$(). Сигил в этом рецепте не расходуется."
+      "text": "Также можно использовать в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимическом столе$(/l) для автоматизации производства $(fire)ведер лавы$(). Сигил в рецепте не расходуется."
     }
   ]
 }

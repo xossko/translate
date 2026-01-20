@@ -1,19 +1,19 @@
 {
-  "name": "Сигил Воды",
+  "name": "Сигил воды",
   "icon": "bloodmagic:watersigil",
   "category": "bloodmagic:alchemy_array/sigil",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Сигила Воды$() — довольно простой символ. Когда вы нажимаете [$(k:use)], глядя на блок, вы можете слить 100 LP из своей $(l:bloodmagic:altar/soul_network)Сеть душ$(/l), чтобы разместить источник воды в мире. Если LP недостаточно, это приведет к потере вашего здоровья. Создано с использованием $(item)Водного реагента$() и $(item)Чистого планшета.$()."
+      "text": "$(item)Сигил воды$() — простой сигил. Нажмите [$(k:use)] по блоку, чтобы потратить 100 LP из $(l:bloodmagic:altar/soul_network)Сети душ$(/l) и создать источник воды. Если LP недостаточно, будет потрачено здоровье. Крафтится с $(item)Водным реагентом$() и $(item)Чистым сланцем$()."
     },
     {
       "type": "bloodmagic:crafting_2-step_sigil",
       "alchemy_table.heading": "Водный реагент",
       "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_water",
-      "array.heading": "Сигил Воды",
+      "array.heading": "Сигил воды",
       "array.recipe": "bloodmagic:array/watersigil",
-      "array.text": "$(italic)Бесконечная вода, кто-нибудь?"
+      "array.text": "$(italic)Бесконечная вода, кто-нибудь?$()"
     },
     {
       "type": "patchouli:image",
@@ -21,15 +21,15 @@
         "bloodmagic:images/entries/sigil/water_sigil1.png",
         "bloodmagic:images/entries/sigil/water_sigil2.png"
       ],
-      "title": "Массив Водных Символов",
+      "title": "Крафт и применение",
       "border": true,
-      "text": "Сигил Воды рядом с его набором для изготовления и его основным назначением."
+      "text": "Сигил воды: раскладка для крафта и основное назначение."
     },
     {
       "type": "bloodmagic:crafting_alchemy_table",
-      "heading": "Ведро с водой",
+      "heading": "Ведро воды",
       "recipe": "bloodmagic:alchemytable/sigil_water_bucket",
-      "text": "Более того, его можно использовать в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимическом столе$() для автоматизации производства $(water)Ведер для воды$(). Сигил в этом рецепте не расходуется."
+      "text": "Также можно использовать в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимическом столе$(/l) для автоматизации производства $(water)ведер воды$(). Сигил в рецепте не расходуется."
     }
   ]
 }
