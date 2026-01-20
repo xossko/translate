@@ -1,0 +1,11 @@
+{
+  "name": "Ловушка с шипами",
+  "icon": "bloodmagic:spike_trap",
+  "category": "bloodmagic:dungeons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эти ловушки наносят урон игрокам и мобам, когда те наступают на них."
+    }
+  ]
+}

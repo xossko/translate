@@ -1,0 +1,11 @@
+{
+  "name": "Подземный переключатель",
+  "icon": "bloodmagic:dungeon_alternator",
+  "category": "bloodmagic:dungeons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эти блоки изменяют своё состояние при получении сигнала красного камня."
+    }
+  ]
+}

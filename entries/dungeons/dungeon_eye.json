@@ -1,0 +1,11 @@
+{
+  "name": "Подземный глаз",
+  "icon": "bloodmagic:dungeon_eye",
+  "category": "bloodmagic:dungeons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эти блоки излучают сигнал красного камня, когда игрок находится поблизости."
+    }
+  ]
+}

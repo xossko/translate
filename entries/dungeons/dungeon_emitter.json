@@ -1,0 +1,11 @@
+{
+  "name": "Подземный излучатель",
+  "icon": "bloodmagic:dungeon_emitter",
+  "category": "bloodmagic:dungeons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эти блоки излучают сигнал красного камня, когда включены."
+    }
+  ]
+}
