@@ -1,0 +1,37 @@
+{
+  "name": "Экстракт Фортуны",
+  "icon": "bloodmagic:fortune_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Фортуны",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment",
+      "text": "Увеличивает добычу с некоторых блоков. Складывается с чарами Удачи (Fortune). $(br2)Применимо к: инструментам, мечам, зарядам. $(br2)Накладывает: Fortunate I (256 блоков)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Фортуны L",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_l",
+      "text": "Эта улучшенная версия помазания держится в четыре раза дольше. $(br2)Накладывает: Fortunate I (1024 блока)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Фортуны II",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_2",
+      "text": "Эта улучшенная версия помазания дополнительно увеличивает добычу. $(br2)Накладывает: Fortunate II (256 блоков)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Фортуны XL",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_xl",
+      "text": "Эта улучшенная версия помазания держится в шестнадцать раз дольше. $(br2)Накладывает: Fortunate I (4096 блоков)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Экстракт Фортуны III",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_3",
+      "text": "Эта улучшенная версия помазания дополнительно увеличивает добычу. $(br2)Накладывает: Fortunate III (256 блоков)"
+    }
+  ]
+}
