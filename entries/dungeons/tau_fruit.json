@@ -1,0 +1,15 @@
+{
+  "name": "Тау-фрукт",
+  "icon": "bloodmagic:tau_fruit",
+  "category": "bloodmagic:dungeons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Тау-фрукт$() — это редкий плод, который можно найти в $(thing)Царстве Демонов$(). При употреблении он даёт кратковременный эффект $(thing)Неуязвимости$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Тау-фрукт$() также можно использовать для создания различных предметов в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимическом столе$(/l)."
+    }
+  ]
+}

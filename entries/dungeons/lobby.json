@@ -1,0 +1,15 @@
+{
+  "name": "Лобби",
+  "icon": "bloodmagic:ritualstone",
+  "category": "bloodmagic:dungeons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Лобби$() — это безопасная зона в $(thing)Царстве Демонов$(), куда можно попасть через $(l:bloodmagic:ritual/portal)Ритуал портала$(/l). Здесь можно отдохнуть, прежде чем отправиться в $(l:bloodmagic:dungeons/endless_realm)Бесконечное Царство$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "В лобби есть портал обратно в обычный мир, а также четыре выхода в $(thing)Бесконечное Царство$(), каждый с разным уровнем сложности."
+    }
+  ]
+}
