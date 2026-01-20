@@ -1,0 +1,16 @@
+{
+  "name": "Гравитация",
+  "icon": "bloodmagic:potion_gravity",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Усиливает гравитацию. Не может быть получен обычным зельеварением, только путём объединения $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/grounded)Приземлённости$(/l) и $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/slow_falling)Медленного падения$(/l) с помощью $(l:bloodmagic:alchemy_table/potions#combinational)Комбинационного катализатора$(/l)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Комбинационный катализатор",
+      "recipe": "bloodmagic:alchemytable/combinational"
+    }
+  ]
+}
