@@ -5,13 +5,13 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Сигил Зеленой Рощи$() — это предмет, который имеет множество применений. Созданный в сочетании с $(item)Growth Reagent$() и $(item)Усиленным сланцем$(), сигил может использовать $(blood)LP$() вашей $(thing)Сеть душ$() для питания и выращивания близлежащих растений."
+      "text": "$(item)Сигил Зеленой Рощи$() — это предмет, который имеет множество применений. Созданный в сочетании с $(item)Growth Reagent$() и $(item)Усиленным слэйтом$(), сигил может использовать $(blood)LP$() вашей $(thing)Сеть душ$() для питания и выращивания близлежащих растений."
     },
     {
       "type": "bloodmagic:crafting_2-step_sigil",
-      "alchemy_table.heading": "Growth Reagent",
+      "alchemy_table.heading": "Реагент для роста",
       "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_growth",
-      "array.heading": "Sigil of the Green Grove",
+      "array.heading": "Сигил Зеленой Рощи",
       "array.recipe": "bloodmagic:array/growthsigil"
     },
     {

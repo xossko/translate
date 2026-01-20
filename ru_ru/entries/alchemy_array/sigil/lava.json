@@ -5,15 +5,15 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Сестринский символ $(l:bloodmagic:alchemy_array/sigil/water)Сигила Воды$(/l). Нажмите [$(k:use)], удерживая $(item)Lava Сигил$(), чтобы создать на земле исходный блок $(fire)lava$() за $(blood)1000 LP$(). Созданный на $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Алхимическом массиве$(/l) с использованием $(item)Лавового реагента$() и $(item)Чистого листа,$() он высосет у вас 5 сердец, если у вас недостаточно LP в вашей $(l:bloodmagic:altar/soul_network)Сети души.$(/l)"
+      "text": "Сестринский символ $(l:bloodmagic:alchemy_array/sigil/water)Сигила Воды$(/l). Нажмите [$(k:use)], удерживая $(item)Lava Сигил$(), чтобы создать на земле исходный блок $(fire)lava$() за $(blood)1000 LP$(). Созданный на $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Алхимическом массиве$(/l) с использованием $(item)Лавового реагента$() и $(item)Пустого слэйта,$() он высосет у вас 5 сердец, если у вас недостаточно LP в вашей $(l:bloodmagic:altar/soul_network)Сети души.$(/l)"
     },
     {
       "type": "bloodmagic:crafting_2-step_sigil",
-      "alchemy_table.heading": "Lava Reagent",
+      "alchemy_table.heading": "Лавовый реагент",
       "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_lava",
-      "array.heading": "Lava Sigil",
+      "array.heading": "Лавовый Сигил",
       "array.recipe": "bloodmagic:array/lavasigil",
-      "array.text": "$(italic)HOT! DO NOT EAT$()"
+      "array.text": "$(italic)ГОРЯЧО! НЕ ЕШЬТЕ$()"
     },
     {
       "type": "patchouli:image",
