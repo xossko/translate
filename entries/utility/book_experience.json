@@ -1,0 +1,20 @@
+{
+  "name": "Том Перитиции",
+  "icon": "bloodmagic:experiencebook",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Том Перитиции$() позволяет безопасно хранить $(thing)опыт$(). $(br2)Нажатие [$(k:sneak)] и [$(k:use)] с томом в руке сохраняет $(thing)один уровень опыта$(). Нажатие [$(k:use)] $(thing)возвращает один уровень$(). Удерживай [$(k:use)], чтобы $(thing)сохранять/возвращать несколько уровней$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:experience_tome"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Поскольку установлен $(thing)Curios API$(), $(item)Том Перитиции$() можно экипировать как амулет. Если хочется носить больше curios одновременно, попробуй $(l:bloodmagic:alchemy_array/sigil/holding)Сигил удержания$() или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)улучшение с гнёздами$() для $(l:bloodmagic:alchemy_array/living_equipment/living_basics)живой брони$()."
+    }
+  ]
+}

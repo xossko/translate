@@ -1,0 +1,18 @@
+{
+  "name": "Интеграция с Agricraft",
+  "icon": "agricraft:wooden_crop_sticks",
+  "category": "bloodmagic:utility",
+  "flag": "mod:agricraft",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "agricraft:wooden_crop_sticks",
+      "title": "Интеграция с Agricraft",
+      "text": "Похоже, сангвимантия может быть полезна даже при работе с продвинутым земледелием. И $(l:bloodmagic:rituals/ritual_green_grove)Ритуал зелёной рощи$(), и $(l:bloodmagic:alchemy_array/sigil/grove)Сигил зелёной рощи$() ускоряют рост таких растений (и подавляют рост сорняков, если миру не повезло быть заражённым этой напастью)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Кроме того, $(l:bloodmagic:rituals/ritual_harvest)Жатва урожайной луны$() сохранит собранные растения так, словно урожай был собран собственными заботливыми руками. $(br2)Если кажется, что где‑то видны сорняки — нет, не видны. (Это небольшой визуальный баг. Можно не переживать.)"
+    }
+  ]
+}

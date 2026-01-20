@@ -1,0 +1,16 @@
+{
+  "name": "Кровавокаменные кирпичи",
+  "icon": "bloodmagic:largebloodstonebrick",
+  "category": "bloodmagic:utility",
+  "pages":[
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Кровавокаменные кирпичи$() — декоративный блок, а также $(thing)капстоуны$() для $(l:bloodmagic:altar/blood_altar)Кровавого алтаря$() 4 тира. Для них требуются $(item)слабые кровавые осколки$(), которые можно получить, поместив $(l:bloodmagic:dungeons/tau_fruit)насыщенное тау$() в $(l:bloodmagic:utility/alchemical_reaction_chamber)Алхимическую реакционную камеру$() вместе с $(l:bloodmagic:utility/alchemical_reaction_chamber#blood_shard)снгвиновым ревертером$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:largebloodstonebrick",
+      "recipe2": "bloodmagic:bloodstonebrick"
+    }
+  ]
+}

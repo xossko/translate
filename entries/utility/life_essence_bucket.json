@@ -1,0 +1,17 @@
+{
+  "name": "Ведро жизни",
+  "icon": "bloodmagic:life_essence_bucket",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(blood)Эссенция жизни$() отлично работает в $(l:bloodmagic:altar/blood_altar)Кровавом алтаре$(): её можно тратить на крафт или перекачивать в $(l:bloodmagic:altar/soul_network)сферу$() для питания $(thing)ритуалов$(). Но что, если хочется выкопать ров с этой штукой вокруг $(l:bloodmagic:utility/incense_altar)Алтаря благовоний$()? К счастью, добывать $(blood)эссенцию жизни$() довольно просто. Просто положи $(item)ведро$() в $(l:bloodmagic:altar/blood_altar)Кровавый алтарь$() и подожди несколько секунд, пока оно наполнится. $(blood)1 LP$() = 1 мБ, так что $(blood)1 000 LP$() более чем достаточно для $(item)ведра$()."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Ведро жизни",
+      "recipe": "bloodmagic:altar/bucket_life",
+      "text": "$(italic)Это точно не кровь. Кровь бы уже свернулась. $(br2)... Почему ты так на меня смотришь?$()"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Алхимическая реакционная камера",
+  "icon": "bloodmagic:alchemicalreactionchamber",
+  "category": "bloodmagic:utility",
+  "pages": [
+     {
+      "type": "patchouli:text",
+      "text": "$(item)Алхимическая реакционная камера$() (сокр. ARC) может работать как $(thing)печь$(), даёт вариант $(l:bloodmagic:utility/ore_processing)утроения руды$(), умеет откатывать $(l:bloodmagic:altar/soul_network)кровавые сферы$(), $(item)незерит$() и $(item)усиленные руны$(), и на данный момент это единственный способ получить $(blood)слабые кровавые осколки$() — конкретно из $(l:bloodmagic:dungeons/tau_fruit)насыщенного тау$(). $(br)Большинство инструментов, используемых в ARC, со временем изнашиваются, но их можно зачаровать на Прочность или Починку, чтобы компенсировать износ."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:arc"
+    },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "Сангвиновый ревертер",
+      "recipe": "bloodmagic:soulforge/sanguine_reverter",
+	  "anchor": "blood_shard",
+      "text": "$(item)Сангвиновый ревертер$() используется для создания $(blood)слабых кровавых осколков$(), а также для отката $(l:bloodmagic:altar/soul_network)кровавых сфер$(), $(item)незерита$() и $(item)усиленных рун$() обратно в исходные предметы крафта."
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "Слабый кровавый осколок",
+      "a.recipe": "bloodmagic:arc/weakbloodshard_tau",
+      "b.heading": "Откат: слабая сфера",
+      "b.recipe": "bloodmagic:arc/reversion/weak_blood_orb",
+      "c.heading": "Откат: сфера ученика",
+      "c.recipe": "bloodmagic:arc/reversion/apprentice_blood_orb"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "Откат: сфера мага",
+      "a.recipe": "bloodmagic:arc/reversion/magician_blood_orb",
+      "b.heading": "Откат: сфера мастера",
+      "b.recipe": "bloodmagic:arc/reversion/master_blood_orb",
+      "c.heading": "Откат: незерит",
+      "c.recipe": "bloodmagic:arc/reversion/netherite_ingot"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "heading": "Откат усиленной руны",
+      "recipe": "bloodmagic:arc/reversion/speed",
+      "text": "Так можно откатить любые усиленные руны — это просто пример."
+    },
+    {
+      "type": "patchouli:text",
+      "heading": "Автоматизация",
+      "text": "Если нужно автоматизировать ARC (например, как часть цепочки $(l:bloodmagic:utility/ore_processing)утроения руды$()), полезно знать, что он $(thing)имеет стороны$(), как обычная $(item)печь$(). Инструменты можно вставлять и извлекать только сверху, входы — с боков, а выходы — снизу. Учитывай это при размещении $(item)воронок$() или $(l:bloodmagic:demon_will/item_routing/routing_nodes)узлов маршрутизации$()."
+    }
+  ]
+}
