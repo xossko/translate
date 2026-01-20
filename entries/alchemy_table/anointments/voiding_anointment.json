@@ -1,0 +1,25 @@
+{
+  "name": "Эссенция пустоты",
+  "icon": "bloodmagic:voiding_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Эссенция пустоты",
+      "recipe": "bloodmagic:alchemytable/voiding_anointment",
+      "text": "Удаляет простые блоки при добыче (камень, земля, адский камень и т. п.). $(br2)Применимо к: инструментам, мечам, зарядам. $(br2)Накладывает: Voiding I (256 блоков)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Эссенция пустоты L",
+      "recipe": "bloodmagic:alchemytable/voiding_anointment_l",
+      "text": "Эта улучшенная версия помазания держится в четыре раза дольше. $(br2)Накладывает: Voiding I (1024 блока)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Эссенция пустоты XL",
+      "recipe": "bloodmagic:alchemytable/voiding_anointment_xl",
+      "text": "Эта улучшенная версия помазания держится в шестнадцать раз дольше. $(br2)Накладывает: Voiding I (4096 блоков)"
+    }
+  ]
+}
