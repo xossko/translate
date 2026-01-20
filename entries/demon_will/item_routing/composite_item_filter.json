@@ -1,0 +1,17 @@
+{
+  "name": "Композитный фильтр",
+  "icon": "bloodmagic:composite_item_filter",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "heading": "Композитный фильтр",
+      "recipe": "bloodmagic:composite_item_filter",
+      "text": "$(item)Композитный фильтр$() позволяет объединить несколько фильтров в один."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Поместите другие фильтры в этот фильтр через его интерфейс."
+    }
+  ]
+}

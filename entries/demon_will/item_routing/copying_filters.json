@@ -1,0 +1,15 @@
+{
+  "name": "Копирование фильтров",
+  "icon": "bloodmagic:standard_item_filter",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы скопировать настройки фильтра, держите [$(k:use)] на пустом фильтре над настроенным фильтром."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Настройки будут скопированы в пустой фильтр."
+    }
+  ]
+}
