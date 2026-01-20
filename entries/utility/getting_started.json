@@ -1,0 +1,108 @@
+{
+  "name": "Тиры и начало",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:utility",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Прогрессия $(blood)Blood Magic 3$() всё ещё перерабатывается, и первые шаги заметно отличаются от $(blood)Blood Magic 2$(). $(br2)Мы всё ещё донастраиваем руководство, но ждём, пока прогрессия окончательно зафиксируется. А пока — краткий обзор того, как продвигаться в $(blood)Blood Magic 3$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:altar",
+      "title": "Кровавый алтарь (тир 1)",
+      "text": "Первый шаг в $(blood)Blood Magic$() — построить $(l:bloodmagic:altar/blood_altar)Кровавый алтарь$() и $(l:bloodmagic:altar/blood_altar#knife)Жертвенный нож$(). С их помощью можно получать $(blood)LP$() через самопожертвование.$(br2)Используй это $(blood)LP$() для создания $(l:bloodmagic:altar/soul_network)слабой кровавой сферы$(), нескольких $(l:bloodmagic:altar/slates)чистых сланцевых плит$() и пары $(l:bloodmagic:demon_will/will_manipulation/soul_snare)ловушек душ$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:alchemytable",
+      "title": "Алхимический стол (тир 1)",
+      "text": "$(l:bloodmagic:alchemy_table/alchemy_table)Алхимический стол$() использует $(blood)LP$() из $(thing)сети души$() игрока (берётся из $(l:bloodmagic:altar/soul_network)привязанной кровавой сферы$(), вставленной внутрь), чтобы создавать разные предметы, например:$(li)$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Мистический пепел$()$(li)$(item)реагенты для сигилов$()$(li)$(l:bloodmagic:alchemy_table/anointments)Помазания$()$(li)$(thing)двойную переработку руды$()$(li)и прочие полезные мелочи."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:arcaneashes",
+      "title": "Алхимический круг (тир 1)",
+      "text": "$(thing)Алхимический круг$() создаётся размещением на земле $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)мистического пепла$(). В круг можно поместить 2 $(item)предмета$() через [$(k:use)], и он либо создаст $(item)предмет$() (например, $(l:bloodmagic:alchemy_array/sigil/divination)Сигил прозрения$()), либо выполнит $(thing)какую‑то функцию$() (например, $(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)превратит день в ночь$())."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:soulforge",
+      "title": "Адская кузня (тир 1)",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/soul_forge)Адская кузня$() создаёт предметы, используя $(l:bloodmagic:demon_will/will_manipulation/demon_will)Демоническую волю$(). Первую $(raw)волю$() можно получить с помощью $(l:bloodmagic:demon_will/will_manipulation/soul_snare)ловушек душ$(), хотя рекомендуется как можно скорее перейти на $(l:bloodmagic:demon_will/demonic_items/sentient_sword)разумный меч$(). $(item)Адская кузня$() нужна для всего, что напрямую связано с $(raw)демонической волей$() (например, $(l:bloodmagic:demon_will/will_manipulation/soul_gem)тартарические самоцветы$() и $(l:bloodmagic:demon_will/demonic_items/sentient_tools)разумные инструменты$()), а также для расходников (например, $(l:bloodmagic:demon_will/demonic_items/explosive_charges)взрывные заряды$() и $(l:bloodmagic:demon_will/demonic_items/throwing_daggers)метательные кинжалы$())."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:daggerofsacrifice",
+      "title": "Тир два",
+      "text": "К этому моменту уже получится создать $(l:bloodmagic:altar/blood_altar#dagger_of_sacrifice)Кинжал жертвоприношения$(), чтобы приносить в жертву мобов и получать больше $(blood)LP$(). Должны стать доступны различные $(item)руны улучшений$() для $(item)Кровавого алтаря$(), а также новые $(item)сигилы$(). Как и прежде, фокус — на дальнейшем улучшении $(l:bloodmagic:altar/blood_altar)алтаря$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:alchemy_flask",
+      "title": "Зельеварение (тир 2)",
+      "text": "Если прокачка $(l:bloodmagic:altar/blood_altar)алтаря$() начинает утомлять и хочется отвлечься, можно попробовать новую систему $(l:bloodmagic:alchemy_table/potions)зельеварения$(). Она позволит создавать $(thing)алхимические фляги$() или $(l:bloodmagic:demon_will/demonic_items/throwing_daggers#amethyst_throwing_dagger)окунутые аметистовые метательные кинжалы$() и наделять их десятками эффектов."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:ritualdiviner",
+      "title": "Тир три",
+      "text": "К этому моменту появится возможность создавать базовые $(l:bloodmagic:rituals/ritual_basics)ритуалы$() и $(l:bloodmagic:alchemy_array/living_equipment/living_basics)живую броню$(). Броня очень гибкая, но придётся потрудиться, чтобы раскрыть её потенциал. Продолжай улучшать $(l:bloodmagic:altar/blood_altar)алтарь$() и $(l:bloodmagic:rituals/ritual_diviner)ритуальный дивинер$(), чтобы открыть более мощные $(thing)ритуалы$(). Как именно?"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:simplekey",
+      "title": "Подземелья (тир 3)",
+      "text": "С помощью $(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)Края сокрытого мира$()! Это даст ограниченный доступ в $(thing)Демоническое измерение$() и, возможно, к $(l:bloodmagic:dungeons/tau_fruit)тау‑плодам$(), которые можно выращивать до $(thing)насыщенного тау$(), а затем превращать в $(item)слабые кровавые осколки$() в $(l:bloodmagic:utility/alchemical_reaction_chamber)Алхимической реакционной камере$(). Осколки нужны для тира IV алтаря, более мощных $(l:bloodmagic:alchemy_table/anointments)помазаний$() и $(l:bloodmagic:alchemy_table/potions#average_potions)катализаторов зелий$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:duskscribetool",
+      "title": "Тир четыре",
+      "text": "На тире 4 открывается $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный дивинер [Сумерки]$(/l) и множество более продвинутых $(thing)ритуалов$(): от $(l:bloodmagic:rituals/ritual_list/ritual_well_of_suffering)автоматизации притока LP$() до $(l:bloodmagic:rituals/ritual_list/ritual_condor)творческого полёта в базе$() и даже $(l:bloodmagic:rituals/ritual_list/ritual_meteor)призыва разрушительного метеора$() с небес, полного трофеев!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:upgradetome",
+      "title": "Лучшая броня (тир 4)",
+      "text": "К этому моменту уже, вероятно, удалось поэкспериментировать с $(l:bloodmagic:alchemy_array/living_equipment/living_basics)живой бронёй$(), но сравнительно низкий лимит очков мог начать мешать. С $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальным дивинером [Сумерки]$(/l) броню можно усиливать гораздо серьёзнее. Во‑первых, $(l:bloodmagic:rituals/ritual_list/ritual_armour_evolve)Ритуал живой эволюции$() поднимет лимит очков со 100 до 300."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если этого мало, $(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)Звук очищающей души$() позволяет снять с брони её улучшения. Томики можно копировать в $(l:bloodmagic:alchemy_array/living_equipment/training_bracelet)Тренировочный браслет$() или снова применять к броне, чтобы тренировать только те улучшения, которые действительно нужны. $(br2)Оставшиеся $(thing)тома улучшений$() можно хранить как топливо для $(l:bloodmagic:rituals/ritual_list/ritual_living_downgrade)Покаяния свинцовой души$(), которое накладывает на броню $(thing)ухудшения$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Хотя они дорогие (и каждое идёт с ощутимым штрафом), их отрицательная стоимость очков оставит больше места для усиления улучшений. $(br2)Хочется быть очень живучим и здоровым, но не пугает медлительность? Попробуй сочетание $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/body_builder)Качок$() V, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/brilliance)Блеск разума$() V, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/healthy)Здоровяк$() X и $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/tough)Крепкий$() X с $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/dig_slowdown)Свинцовым киркоподобием$() X и $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/speed_decreas e)Хромой ногой$() X."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Больше нравится исследовать и быстро бегать? Не важна левая рука? Тогда может подойти связка $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/strong_legs)Сильные ноги$() X, $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/quick_feet)Быстрые ступни$() X и $(l:bloodmagic:alchemy_array/living_equipment/armour_downgrades/crippled_arm)Искалеченная рука$(). $(br2)Хочется оба варианта в разное время? Сделай несколько нагрудников и меняй их! Улучшений и ухудшений десятки — комбинируй и подбирай любимые варианты."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:vengefulcrystal",
+      "title": "Аспектированная воля (тир 4)",
+      "text": "Стоит изучить $(l:bloodmagic:rituals/ritual_tinkerer)Настройщика ритуалов$() и разные $(l:bloodmagic:demon_will/will_manipulation/aspected_will)аспекты воли$() и подумать, как они могут улучшать ритуалы и менять поведение $(l:bloodmagic:demon_will/demonic_items/sentient_tools)разумных инструментов$() и $(l:bloodmagic:demon_will/demonic_items/sentient_sword)оружия$(). Для прогресса дальше, однако, потребуется поход в $(thing)Демоническое измерение$()…"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:mineentrancekey",
+      "title": "Демоническое измерение (тир 4)",
+      "text": "Выполнив $(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)Путь в бесконечный мир$(), можно получить доступ к $(thing)Демоническому измерению$() целиком — со всеми сокровищами и опасностями. Приходи готовым к бою! Если углубиться, можно найти $(l:bloodmagic:dungeons/demonite)демонитовую руду$(); её блоки пригодятся для капстоунов алтаря и вместе с $(item)кровавой сферой архимага$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:ingot_hellforged",
+      "title": "Тир пять",
+      "text": "Это верхний тир. Здесь открыто всё, что $(blood)Blood Magic$() может предложить. Продолжай исследовать Демоническое измерение в поисках редких трофеев; возможно, повезёт найти $(item)замысловатые адскокованые детали$(), которые вместе с $(item)обломками незерита$() удваивают силу каждой руны алтаря!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:barrier",
+      "title": "Тир шесть?",
+      "text": "Что? Нет. Слушай, даже в 1.12 это было сделано как одолжение для авторов сборок и в остальном не реализовано. Ты уже слишком далеко зашёл. Вернись на страницу назад."
+    }
+  ]
+}
