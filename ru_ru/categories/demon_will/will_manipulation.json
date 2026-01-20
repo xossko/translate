@@ -1,0 +1,6 @@
+{
+  "name": "Манипуляция волей",
+  "description": "Демоническая воля — странная штука. ",
+  "icon": "bloodmagic:basemonstersoul",
+  "parent": "bloodmagic:demon_will"
+}

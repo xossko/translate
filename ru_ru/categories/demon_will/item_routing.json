@@ -1,0 +1,6 @@
+{
+  "name": "Маршрутизация предметов",
+  "description": "Кому нужны хопперы? ",
+  "icon": "bloodmagic:noderouter",
+  "parent": "bloodmagic:demon_will"
+}

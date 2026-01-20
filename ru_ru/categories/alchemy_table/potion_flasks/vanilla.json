@@ -1,0 +1,6 @@
+{
+  "name": "Ванильные эффекты",
+  "description": "Эти эффекты могут быть воспроизведены стандартным $(item)Пивоварным стендом$(), хотя, очевидно, не так эффективно.",
+  "icon": "minecraft:brewing_stand",
+  "parent": "bloodmagic:alchemy_table/potion_flasks"
+}

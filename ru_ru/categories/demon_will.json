@@ -1,0 +1,6 @@
+{
+  "name": "Демон Воля",
+  "description": "$(item)Demon Will$() — это одна из первых вещей, которые вы можете создать с помощью $(blood)Blood Magic$(). ",
+  "icon": "bloodmagic:basemonstersoul",
+  "sortnum": 3
+}
