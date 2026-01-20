@@ -1,0 +1,56 @@
+{
+  "name": "Символ гадания",
+  "icon": "bloodmagic:divinationsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Сигила предсказания$(), вероятно, первая из многих сигилов, которые вы хотели бы создать в Магии Крови. Чтобы создать сигил, вам необходимо создать $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Alchemy Array$(/l) и использовать $(item)Redstone Dust$() и $(item)Blank Slate$() в качестве основы и катализатора соответственно."
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "Символ гадания",
+      "recipe": "bloodmagic:array/divinationsigil",
+      "text": "$(italic)Загляните в душу."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/divination_sigil.png"
+      ],
+      "title": "Массив сигил гадания",
+      "border": true,
+      "text": "Символ гадания рядом с его набором для крафта."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Символ Прорицания имеет два основных применения: $(br)$(li)Когда любой игрок нажимает [$(k:use)], целясь в воздух с привязанным знаком, он отображает количество $(blood)LP$(), которое находится в сети $(l:bloodmagic:altar/soul_network)Soul владельца.$(/l)$(li)При нажатии [$(k:use)] на $(l:bloodmagic:altar/blood_altar)Кровавый алтарь$(/l), он сообщит игроку текущий уровень алтаря, количество $(blood)Сущность жизни$(), хранящихся в алтаре, а также его текущую максимальную вместимость. Наличие под рукой $(item)Гадательного знака$() также может быть полезно для $(l:bloodmagic:utility/incense_altar)Алтаря благовоний$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/divination_sigil_info.png"
+      ],
+      "title": "Дисплей сигил предсказания",
+      "border": true,
+      "text": "Символ гадания отображает этот HUD, когда вы смотрите на Кровавый Алтарь."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Наконец, если удерживать клавишу подкрадывания и нажать [$(k:use)], откроется новый интерфейс, отображающий все доступные элементы HUD из Blood Magic. Элемент можно выбрать и переместить, щелкнув и перетащив его. Если отпустить элемент и нажать «Сохранить», новое местоположение элемента будет сохранено.$(br2)Выбор «По умолчанию» возвращает элементы в позиции по умолчанию."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/gui_editing.png"
+      ],
+      "title": "Редактирование графического интерфейса",
+      "border": true,
+      "text": "различные элементы графического интерфейса Blood Magic."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Элементы, идущие сверху вниз, а затем слева направо, следующие: $(li)$(l:bloodmagic:utility/incense_altar)Алтарь благовоний$() (светло-серый)$(li)$(l:bloodmagic:alchemy_array/sigil/seer)Сигила Провидца$() (фиолетовый)$(li)$(item)Сигила Прорицания$() (лаванда)$(li)Аура $(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Демон Воля Датчик$() (оранжевый) $(li)$(l:bloodmagic:alchemy_array/sigil/holding)Сигила холдинга$() (зеленый)"
+    }
+  ]
+}
