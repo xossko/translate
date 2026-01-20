@@ -1,0 +1,15 @@
+{
+  "name": "Гномья мощь",
+  "icon": "minecraft:diamond_pickaxe",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: Увеличивает скорость майнинга. Максимум +45% скорости майнинга. $(br2)Тренируется: Добыча блоков. $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:mining_speed"
+    }
+  ]
+}

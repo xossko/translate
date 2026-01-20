@@ -1,0 +1,15 @@
+{
+  "name": "Удар заряда",
+  "icon": "minecraft:golden_apple",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: дает шанс нанести дополнительный урон, когда вы заряжаете свой удар. Максимум +5 дополнительных сердец урона. $(br2)Тренируется: Удар по сущности во время спринта. $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:charge_attack"
+    }
+  ]
+}
