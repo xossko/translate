@@ -1,0 +1,32 @@
+{
+  "name": "Резонанс гранёного кристалла",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Резонанс гранёного кристалла",
+      "multiblock_id": "bloodmagic:crystal_split",
+      "text": "Для более простого строительства используй $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный дивинер [Сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crystal_split",
+      "text_overrides": [
+        ["Raw crystal cluster", "l:bloodmagic:demon_will/will_manipulation/crystallized_will"],
+        ["aspected crystal clusters", "l:bloodmagic:demon_will/will_manipulation/aspected_will"]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Этот ритуал берёт хорошо выросший (не меньше 5 шпилей) $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)кластер необработанной демонической воли$(/l), расположенный на 2 блока выше $(item)главного ритуального камня$(), и разделяет его на новые одиночные шпили кристаллов $(l:bloodmagic:demon_will/will_manipulation/aspected_will)аспектной воли$(/l), которые появляются прямо над 4 элементальными ритуальными камнями. Такое расстояние рассчитано так, чтобы на $(item)главном ритуальном камне$() можно было разместить $(item)демонический кристаллизатор$().$(br2)Подробнее о выращивании кристаллов демонической воли см. в разделе $(l:bloodmagic:demon_will/will_manipulation/crystallized_will)Кристаллизованная воля$(/l)."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Схема ритуала",
+      "images": ["bloodmagic:images/entries/demon_will/will_splitting.png"],
+      "border": true,
+      "text": "Рекомендуемая схема для ритуала «Резонанс гранёного кристалла»."
+    }
+  ]
+}
