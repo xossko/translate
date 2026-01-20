@@ -1,41 +1,36 @@
 {
-  "name": "Слэйты",
+  "name": "Ярусы сланцев",
   "icon": "bloodmagic:blankslate",
   "category": "bloodmagic:altar",
+  "extra_recipe_mappings": {
+    "bloodmagic:blankslate": 1,
+    "bloodmagic:reinforcedslate": 1,
+    "bloodmagic:infusedslate": 2,
+    "bloodmagic:demonslate": 2
+  },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Слэйты$() — это особый предмет, который создаётся в Кровавом алтаре и используется во многих рецептах мода. Они представляют собой ступени прогрессии, начиная с $(item)Пустого слэйта$() и заканчивая более продвинутыми видами."
+      "text": "Основное назначение $(l:bloodmagic:altar/blood_altar)Кровавый алтарь$(/l) — производство $(item)Slates$(). Для каждого уровня сланца требуется предыдущий уровень и более мощный алтарь, чем последний."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Чистый лист",
+      "a.recipe": "bloodmagic:altar/slate",
+      "b.heading": "Армированный шифер",
+      "b.recipe": "bloodmagic:altar/reinforcedslate"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "Прочный сланец",
+      "a.recipe": "bloodmagic:altar/imbuedslate",
+      "b.heading": "Демонический сланец",
+      "b.recipe": "bloodmagic:altar/demonicslate"
     },
     {
       "type": "bloodmagic:crafting_altar",
-      "heading": "Пустой слэйт",
-      "recipe": "bloodmagic:altar/slate_blank",
-      "text": "Самый базовый слэйт, который изготавливается из камня в Кровавом алтаре."
-    },
-    {
-      "type": "bloodmagic:crafting_altar",
-      "heading": "Усиленный слэйт",
-      "recipe": "bloodmagic:altar/slate_reinforced",
-      "text": "Следующий уровень слэйтов; создаётся из Пустого слэйта и требует больше $(blood)LP$()."
-    },
-    {
-      "type": "bloodmagic:crafting_altar",
-      "heading": "Пропитанный слэйт",
-      "recipe": "bloodmagic:altar/slate_imbued",
-      "text": "Ещё более продвинутый слэйт; используется в рецептах среднего уровня и требует Алтарь более высокого уровня."
-    },
-    {
-      "type": "bloodmagic:crafting_altar",
-      "heading": "Демонический слэйт",
-      "recipe": "bloodmagic:altar/slate_demonic",
-      "text": "Продвинутый слэйт для поздней игры, требующий большой объём $(blood)LP$() и высокий уровень Кровавого алтаря."
-    },
-    {
-      "type": "bloodmagic:crafting_altar",
-      "heading": "Эфирный слэйт",
-      "recipe": "bloodmagic:altar/slate_ethereal",
-      "text": "Самый высокий уровень слэйтов; используется в самых мощных и дорогих рецептах."
+      "heading": "Эфирный сланец",
+      "recipe": "bloodmagic:altar/etherealslate"
     }
   ]
 }
