@@ -1,0 +1,19 @@
+{
+  "name": "Мгновенное исцеление",
+  "icon": "minecraft:potion{Potion:\"minecraft:healing\"}",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Мгновенное исцеление I",
+      "recipe": "bloodmagic:alchemytable/potion_healing_1",
+      "text": "Восстанавливает 2 сердечка здоровья."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Мгновенное исцеление II",
+      "recipe": "bloodmagic:alchemytable/potion_healing_2",
+      "text": "Восстанавливает 4 сердечка здоровья."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Левитация",
+  "icon": "minecraft:potion{Potion:\"minecraft:levitation\"}",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Левитация I",
+      "recipe": "bloodmagic:alchemytable/potion_levitation_1",
+      "text": "Заставляет вас медленно подниматься."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Левитация II",
+      "recipe": "bloodmagic:alchemytable/potion_levitation_2",
+      "text": "Заставляет вас подниматься быстрее."
+    }
+  ]
+}

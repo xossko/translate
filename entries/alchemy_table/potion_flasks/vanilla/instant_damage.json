@@ -1,0 +1,19 @@
+{
+  "name": "Мгновенный урон",
+  "icon": "minecraft:potion{Potion:\"minecraft:harming\"}",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Мгновенный урон I",
+      "recipe": "bloodmagic:alchemytable/potion_harming_1",
+      "text": "Наносит 3 сердечка урона при использовании."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Мгновенный урон II",
+      "recipe": "bloodmagic:alchemytable/potion_harming_2",
+      "text": "Наносит 6 сердечек урона при использовании."
+    }
+  ]
+}
