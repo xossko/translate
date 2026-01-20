@@ -1,0 +1,16 @@
+{
+  "name": "Снижение скорости",
+  "icon": "minecraft:leather_boots",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Уменьшает скорость передвижения. Более высокие уровни еще больше снижают скорость."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/speed_decrease",
+      "b.upgrade": "bloodmagic:speed_decrease"
+    }
+  ]
+}

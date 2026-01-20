@@ -1,0 +1,16 @@
+{
+  "name": "Медленное исцеление",
+  "icon": "minecraft:potion",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Уменьшает скорость регенерации. Более высокие уровни еще больше снижают скорость."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/slow_heal",
+      "b.upgrade": "bloodmagic:slow_heal"
+    }
+  ]
+}
