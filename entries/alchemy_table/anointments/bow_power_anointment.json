@@ -1,0 +1,40 @@
+{
+  "name": "Железный наконечник",
+  "icon": "bloodmagic:bow_power_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "extra_recipe_mappings": {
+    "bloodmagic:bow_power_anointment_strong": 0
+  },
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Железный наконечник",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment",
+      "text": "Увеличивает урон выпущенных стрел на 25%. Складывается с ванильными чарами. $(br2)Применимо к: лукам, арбалетам.$(br2)Накладывает: Heavy Shot I (256 выстрелов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Железный наконечник L",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_l",
+      "text": "Эта улучшенная версия помазания держится в четыре раза дольше. $(br2)Накладывает: Heavy Shot I (1024 выстрела)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Железный наконечник II",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_2",
+      "text": "Эта улучшенная версия помазания увеличивает урон на 50%. $(br2)Накладывает: Heavy Shot II (256 выстрелов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Железный наконечник XL",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_xl",
+      "text": "Эта улучшенная версия помазания держится в шестнадцать раз дольше. $(br2)Накладывает: Heavy Shot I (4096 выстрелов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Железный наконечник III",
+      "recipe": "bloodmagic:alchemytable/bow_power_anointment_3",
+      "text": "Эта улучшенная версия помазания увеличивает урон на 75%. $(br2)Накладывает: Heavy Shot III (256 выстрелов)"
+    }
+  ]
+}

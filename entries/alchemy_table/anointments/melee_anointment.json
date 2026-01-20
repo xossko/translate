@@ -1,0 +1,37 @@
+{
+  "name": "Точильное масло",
+  "icon": "bloodmagic:melee_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Точильное масло",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment",
+      "text": "Временно увеличивает урон в ближнем бою на +3. $(br2)Применимо к: инструментам, мечам.$(br2)Накладывает: Whetstone I (256 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Точильное масло L",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_l",
+      "text": "Эта улучшенная версия помазания держится в четыре раза дольше. $(br2)Накладывает: Whetstone I (1024 удара)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Точильное масло II",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_2",
+      "text": "Эта улучшенная версия помазания увеличивает урон в ближнем бою на +6. $(br2)Накладывает: Whetstone II (256 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Точильное масло XL",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_xl",
+      "text": "Эта улучшенная версия помазания держится в шестнадцать раз дольше. $(br2)Накладывает: Whetstone I (4096 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Точильное масло III",
+      "recipe": "bloodmagic:alchemytable/melee_damage_anointment_3",
+      "text": "Эта улучшенная версия помазания увеличивает урон в ближнем бою на +9. $(br2)Накладывает: Whetstone III (256 ударов)"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Руна вместимости",
+  "icon": "bloodmagic:altarcapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна вместимости$() увеличивает объём $(l:bloodmagic:altar/blood_altar)Кровавого алтаря$(/l) аддитивно на +20% за каждую руну."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_capacity"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_capacity_2",
+      "text": "С помощью $(item)Нетеритового лома$() и $(item)Замысловатых деталей адской кузни$() (добываются в $(l:bloodmagic:dungeons/endless_realm)Царстве Демонов$(/l)) можно удвоить силу $(item)Руны вместимости$(): она будет давать +40% аддитивно за руну."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/capacity",
+      "text": "Если передумаете, рецепт можно обратить в ARC."
+    }
+  ]
+}

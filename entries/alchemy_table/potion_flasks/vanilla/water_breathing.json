@@ -1,0 +1,13 @@
+{
+  "name": "Подводное дыхание",
+  "icon": "minecraft:potion{Potion:\"minecraft:water_breathing\"}",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Подводное дыхание",
+      "recipe": "bloodmagic:alchemytable/potion_water_breathing",
+      "text": "Позволяет дышать под водой."
+    }
+  ]
+}

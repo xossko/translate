@@ -1,0 +1,17 @@
+{
+  "name": "Слоты Curios",
+  "icon": "curios:curio",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Эффект: Добавляет слоты Curio к вашей живой броне. Каждый уровень добавляет +1 к максимальному количеству слотов Curio. $(br2)Тренируется: Ношение предметов Curio. $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "flag": "mod:curios",
+      "upgrade": "bloodmagic:curios"
+    }
+  ]
+}

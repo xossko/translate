@@ -1,0 +1,13 @@
+{
+  "name": "Медленное падение",
+  "icon": "minecraft:potion{Potion:\"minecraft:slow_falling\"}",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Медленное падение",
+      "recipe": "bloodmagic:alchemytable/potion_slow_falling",
+      "text": "Замедляет падение."
+    }
+  ]
+}

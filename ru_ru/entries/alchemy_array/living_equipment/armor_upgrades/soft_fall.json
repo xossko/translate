@@ -1,0 +1,15 @@
+{
+  "name": "Мягкое падение",
+  "icon": "minecraft:leather_boots",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: уменьшает урон от падения. Максимум 100% уменьшения. $(br2)Тренируется: Получение урона от падения. $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:fall_protect"
+    }
+  ]
+}

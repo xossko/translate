@@ -1,0 +1,25 @@
+{
+  "name": "Руна орба",
+  "icon": "bloodmagic:orbcapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна орба$() увеличивает вместимость $(item)Кровавого орба$(), лежащего внутри алтаря, аддитивно на +2% за каждую руну (пока орб находится внутри алтаря)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_orb"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_orb_2",
+      "text": "С помощью $(item)Нетеритового лома$() и $(item)Замысловатых деталей адской кузни$() (добываются в $(l:bloodmagic:dungeons/endless_realm)Царстве Демонов$(/l)) можно удвоить силу $(item)Руны орба$(): она будет давать +4% аддитивно за руну."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/orb_rune",
+      "text": "Если передумаете, рецепт можно обратить в ARC."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Обсидиановый плащ",
+  "icon": "bloodmagic:potion_obsidian_cloak",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Даёт защиту и прочность! Не может быть получен обычным зельеварением, только путём объединения $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/fire_resistance)Огнестойкости$(/l) и $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/hard_cloak)Твёрдого плаща$(/l) с помощью $(l:bloodmagic:alchemy_table/potions#combinational)Комбинационного катализатора$(/l)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Комбинационный катализатор",
+      "recipe": "bloodmagic:alchemytable/combinational"
+    }
+  ]
+}

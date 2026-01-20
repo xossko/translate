@@ -1,0 +1,29 @@
+{
+  "name": "Руна зарядки",
+  "icon": "bloodmagic:chargingrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна зарядки$() — особое улучшение алтаря. Когда $(l:bloodmagic:altar/blood_altar)Кровавый алтарь$(/l) не крафтит и не заряжает $(l:bloodmagic:altar/soul_network)Кровавый орб$(/l), он перекачивает $(blood)LP$() из чаши алтаря во внутренний буфер. Когда в алтарь в следующий раз поместят предмет, накопленный заряд будет мгновенно израсходован и пойдёт на крафт в соотношении 1:1."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Алтарь выполняет зарядку раз в 20 тиков, а каждая $(l:bloodmagic:altar/blood_rune/acceleration_rune)Руна ускорения$(/l) уменьшает задержку на 1 тик. $(br2)Количество $(blood)LP$(), добавляемое за один «тик зарядки», равно: [$(blood)10 LP$() × (число $(l:bloodmagic:altar/blood_rune/charging_rune)Рун зарядки$(/l)) × (1 + (число $(l:bloodmagic:altar/blood_rune/speed_rune)Рун скорости$(/l))/10)]. $(br2)Максимальный заряд внутреннего буфера: $(blood)1000 LP$() за каждую $(item)Руну зарядки$(), дополнительно умножаемый на [(вместимость основного резервуара алтаря)/20000], если это значение больше 1."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_charging"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_charging_2",
+      "text": "С помощью $(item)Нетеритового лома$() и $(item)Замысловатых частей адской кузни$() (добываются в $(l:bloodmagic:dungeons/endless_realm)Царстве Демонов$(/l)) можно удвоить силу $(item)Руны зарядки$() как по ёмкости, так и по скорости."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/charging",
+      "text": "Если передумаете, рецепт можно обратить в ARC."
+    }
+  ]
+}

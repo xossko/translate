@@ -1,0 +1,32 @@
+{
+  "name": "Сигил провидца",
+  "icon": "bloodmagic:seersigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Сигил провидца$() — улучшенная версия $(l:bloodmagic:alchemy_array/sigil/divination)Сигила гадания$(/l). Помимо отображения количества LP в $(l:bloodmagic:altar/soul_network)Сети душ$(/l), он показывает расширенную информацию при взгляде на $(l:bloodmagic:altar/blood_altar)Кровавый алтарь$(/l). Как и сигил гадания, позволяет редактировать HUD."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент зрения",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_sight",
+      "array.heading": "Сигил провидца",
+      "array.recipe": "bloodmagic:array/seersigil",
+      "array.text": "$(italic)Когда видеть — недостаточно$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Сверху вниз: $(li)Уровень Кровавого алтаря. $(li)Текущая кровь в алтаре и его вместимость. $(li)Прогресс крафта (если есть). $(li)Расход LP/тик при крафте. $(li)Текущий запас LP для эффекта $(l:bloodmagic:altar/blood_rune/charging_rune)Рун зарядки$(/l) (если используются)."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/seer_sigil_info.png"
+      ],
+      "title": "Экран сигила провидца",
+      "border": true,
+      "text": "Сигил провидца показывает этот HUD при взгляде на Кровавый алтарь."
+    }
+  ]
+}

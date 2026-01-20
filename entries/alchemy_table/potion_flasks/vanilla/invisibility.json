@@ -1,0 +1,13 @@
+{
+  "name": "Невидимость",
+  "icon": "minecraft:potion{Potion:\"minecraft:invisibility\"}",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Невидимость",
+      "recipe": "bloodmagic:alchemytable/potion_invisibility",
+      "text": "Делает вас невидимыми. Мобы не смогут вас видеть, но ваша броня и удерживаемые предметы остаются видны."
+    }
+  ]
+}

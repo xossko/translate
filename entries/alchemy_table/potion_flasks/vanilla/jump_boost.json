@@ -1,0 +1,19 @@
+{
+  "name": "Прыгучесть",
+  "icon": "minecraft:potion{Potion:\"minecraft:leaping\"}",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Прыгучесть I",
+      "recipe": "bloodmagic:alchemytable/potion_leaping_1",
+      "text": "Увеличивает высоту прыжка на полблока."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Прыгучесть II",
+      "recipe": "bloodmagic:alchemytable/potion_leaping_2",
+      "text": "Увеличивает высоту прыжка на 1,25 блока."
+    }
+  ]
+}

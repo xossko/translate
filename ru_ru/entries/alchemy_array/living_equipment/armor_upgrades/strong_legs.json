@@ -1,0 +1,15 @@
+{
+  "name": "Крепкие ноги",
+  "icon": "minecraft:iron_boots",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: увеличивает высоту шага. Максимум +2 блока высоты шага. $(br2)Тренируется: Ходьба по блокам высотой 1. $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:step_assist"
+    }
+  ]
+}

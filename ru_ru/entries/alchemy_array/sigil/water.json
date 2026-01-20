@@ -1,0 +1,35 @@
+{
+  "name": "Сигил воды",
+  "icon": "bloodmagic:watersigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Сигил воды$() — простой сигил. Нажмите [$(k:use)] по блоку, чтобы потратить 100 LP из $(l:bloodmagic:altar/soul_network)Сети душ$(/l) и создать источник воды. Если LP недостаточно, будет потрачено здоровье. Крафтится с $(item)Водным реагентом$() и $(item)Чистым сланцем$()."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Водный реагент",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_water",
+      "array.heading": "Сигил воды",
+      "array.recipe": "bloodmagic:array/watersigil",
+      "array.text": "$(italic)Бесконечная вода, кто-нибудь?$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/water_sigil1.png",
+        "bloodmagic:images/entries/sigil/water_sigil2.png"
+      ],
+      "title": "Крафт и применение",
+      "border": true,
+      "text": "Сигил воды: раскладка для крафта и основное назначение."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ведро воды",
+      "recipe": "bloodmagic:alchemytable/sigil_water_bucket",
+      "text": "Также можно использовать в $(l:bloodmagic:alchemy_table/alchemy_table)Алхимическом столе$(/l) для автоматизации производства $(water)ведер воды$(). Сигил в рецепте не расходуется."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Сигил гадания",
+  "icon": "bloodmagic:divinationsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Сигил гадания$() — обычно первый сигил, который создают в Blood Magic. Для крафта сигила нужен $(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)Алхимический массив$(/l): используйте $(item)Редстоун$() как основу и $(item)Пустой сланец$() как катализатор."
+    },
+    {
+      "type": "bloodmagic:crafting_array",
+      "heading": "Сигил гадания",
+      "recipe": "bloodmagic:array/divinationsigil",
+      "text": "$(italic)Загляните в душу.$()"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/divination_sigil.png"
+      ],
+      "title": "Массив для сигила гадания",
+      "border": true,
+      "text": "Сигил гадания рядом с раскладкой для крафта."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "У сигила гадания два основных применения: $(br)$(li)Если нажать [$(k:use)] в воздух, показывается количество $(blood)LP$() в вашей $(l:bloodmagic:altar/soul_network)Сети душ$(/l).$(li)Если нажать [$(k:use)] по $(l:bloodmagic:altar/blood_altar)Кровавому алтарю$(/l), показываются уровень алтаря, текущее количество $(blood)Сущности жизни$() и максимальная вместимость. Также полезен для $(l:bloodmagic:utility/incense_altar)Алтаря благовоний$(/l)."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/divination_sigil_info.png"
+      ],
+      "title": "Экран сигила гадания",
+      "border": true,
+      "text": "Сигил гадания показывает этот HUD при взгляде на Кровавый алтарь."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если удерживать шифт и нажать [$(k:use)], откроется интерфейс настройки HUD Blood Magic: элементы можно перетаскивать и сохранять новое положение. $(br2)Кнопка «По умолчанию» возвращает элементы на стандартные позиции."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/gui_editing.png"
+      ],
+      "title": "Редактор HUD",
+      "border": true,
+      "text": "Пример редактора HUD Blood Magic."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Элементы сверху вниз, затем слева направо: $(li)$(l:bloodmagic:utility/incense_altar)Алтарь благовоний$(/l) (светло‑серый)$(li)$(l:bloodmagic:alchemy_array/sigil/seer)Сигил провидца$(/l) (фиолетовый)$(li)$(item)Сигил гадания$() (лаванда)$(li)$(l:bloodmagic:demon_will/will_manipulation/aura_gauge)Индикатор ауры Демонической воли$(/l) (оранжевый)$(li)$(l:bloodmagic:alchemy_array/sigil/holding)Сигил хранения$(/l) (зелёный)"
+    }
+  ]
+}

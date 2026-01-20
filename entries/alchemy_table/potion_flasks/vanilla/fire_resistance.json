@@ -1,0 +1,13 @@
+{
+  "name": "Огнестойкость",
+  "icon": "minecraft:potion{Potion:\"minecraft:fire_resistance\"}",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Огнестойкость",
+      "recipe": "bloodmagic:alchemytable/potion_fire_resistance",
+      "text": "Даёт иммунитет к огню и лаве."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Ремонт",
+  "icon": "minecraft:iron_ingot",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: дает шанс восстановить часть прочности вашей живой брони, когда вы получаете урон. Максимум 100% шанса восстановить 2 очка прочности. $(br2)Тренируется: Получение урона. $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:repair"
+    }
+  ]
+}

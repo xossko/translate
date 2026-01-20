@@ -1,0 +1,19 @@
+{
+  "name": "Медлительность",
+  "icon": "minecraft:potion{Potion:\"minecraft:slowness\"}",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Медлительность I",
+      "recipe": "bloodmagic:alchemytable/potion_slowness_1",
+      "text": "Замедляет ваше передвижение."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Медлительность II",
+      "recipe": "bloodmagic:alchemytable/potion_slowness_2",
+      "text": "Замедляет ваше передвижение ещё сильнее."
+    }
+  ]
+}

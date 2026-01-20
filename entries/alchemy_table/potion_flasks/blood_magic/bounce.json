@@ -1,0 +1,13 @@
+{
+  "name": "Прыжки",
+  "icon": "bloodmagic:potion_bounce",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Прыжки",
+      "recipe": "bloodmagic:alchemytable/potion_bounce",
+      "text": "Заставляет вас отскакивать от блоков при падении на них."
+    }
+  ]
+}

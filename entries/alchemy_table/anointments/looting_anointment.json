@@ -1,0 +1,37 @@
+{
+  "name": "Блеск мародёра",
+  "icon": "bloodmagic:looting_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Блеск мародёра",
+      "recipe": "bloodmagic:alchemytable/looting_anointment",
+      "text": "Увеличивает добычу с убитых мобов. Складывается с чарами Добычи (Looting).$(br2)Применимо к: инструментам, мечам.$(br2)Накладывает: Plundering I (256 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Блеск мародёра L",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_l",
+      "text": "Эта улучшенная версия помазания держится в четыре раза дольше. $(br2)Накладывает: Plundering I (1024 удара)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Блеск мародёра II",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_2",
+      "text": "Эта улучшенная версия помазания дополнительно увеличивает добычу. $(br2)Накладывает: Plundering II (256 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Блеск мародёра XL",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_xl",
+      "text": "Эта улучшенная версия помазания держится в шестнадцать раз дольше. $(br2)Накладывает: Plundering I (4096 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Блеск мародёра III",
+      "recipe": "bloodmagic:alchemytable/looting_anointment_3",
+      "text": "Эта улучшенная версия помазания дополнительно увеличивает добычу. $(br2)Накладывает: Plundering III (256 ударов)"
+    }
+  ]
+}

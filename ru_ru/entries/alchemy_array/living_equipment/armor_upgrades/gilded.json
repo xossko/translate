@@ -1,0 +1,15 @@
+{
+  "name": "Позолоченный",
+  "icon": "minecraft:gold_ingot",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: Увеличивает количество добычи при добыче блоков. Максимум +20% удачи. $(br2)Тренируется: Добыча блоков. $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:fortune"
+    }
+  ]
+}

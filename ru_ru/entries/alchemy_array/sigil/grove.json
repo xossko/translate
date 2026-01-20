@@ -1,0 +1,38 @@
+{
+  "name": "Сигил рощи",
+  "icon": "bloodmagic:growthsigil",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Сигил рощи$() имеет несколько применений. Созданный с $(item)Реагентом роста$() и $(item)Усиленным сланцем$(), он расходует $(blood)LP$() вашей $(thing)Сети душ$() для ускорения роста растений поблизости."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент роста",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_growth",
+      "array.heading": "Сигил рощи",
+      "array.recipe": "bloodmagic:array/growthsigil"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/sigil/grove_sigil1.png",
+        "bloodmagic:images/entries/sigil/grove_sigil2.png",
+        "bloodmagic:images/entries/sigil/grove_sigil3.png"
+      ],
+      "title": "Использование сигила рощи",
+      "border": true,
+      "text": "Сигил рощи и пример применения."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если нажать [$(k:use)] по блоку, который можно ускорять ростом (IGrowable), будет применён эффект костной муки ценой $(blood)150 LP$(). $(br2)Если удерживать [$(k:sneak)] и нажать [$(k:use)] в воздух, сигил включится и будет тратить $(blood)150 LP$() каждые 5 секунд, ускоряя рост в области 7x7x5 вокруг игрока (пока не выключить)."
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Если установлен $(thing)Curios API$(), этот $(item)Сигил$() можно носить как аксессуар. Чтобы носить больше аксессуаров, используйте $(l:bloodmagic:alchemy_array/sigil/holding)Сигил хранения$(/l) или $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)слотовый апгрейд$(/l) для $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой брони$(/l)."
+    }
+  ]
+}

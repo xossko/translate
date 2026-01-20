@@ -1,0 +1,15 @@
+{
+  "name": "Сопротивление яду",
+  "icon": "minecraft:spider_eye",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: дает сопротивление яду. Максимум 100% сопротивления. $(br2)Тренируется: Получение урона от яда. $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:poison_resist"
+    }
+  ]
+}

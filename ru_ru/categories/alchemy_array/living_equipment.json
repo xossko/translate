@@ -1,0 +1,7 @@
+{
+  "name": "Жилое оборудование",
+  "description": "с небольшим количеством $(item)Arcane Ashes$() и горсткой нового $(item)Binding Reagent$() перед вами откроется целый мир защиты и полезности. ",
+  "icon": "bloodmagic:livinghelmet",
+  "parent": "bloodmagic:alchemy_array",
+  "sortnum": 2
+}

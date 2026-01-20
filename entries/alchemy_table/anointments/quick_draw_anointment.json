@@ -1,0 +1,37 @@
+{
+  "name": "Алкахест ловкости",
+  "icon": "bloodmagic:quick_draw_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Алкахест ловкости",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment",
+      "text": "Снижает время натяжения луков и арбалетов на 33%. $(br2)Применимо к: лукам, арбалетам.$(br2)Накладывает: Deft Hands I (256 выстрелов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Алкахест ловкости L",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_l",
+      "text": "Эта улучшенная версия помазания держится в четыре раза дольше. $(br2)Накладывает: Deft Hands I (1024 выстрела)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Алкахест ловкости II",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_2",
+      "text": "Эта улучшенная версия помазания снижает время натяжения на 50%. $(br2)Накладывает: Deft Hands II (256 выстрелов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Алкахест ловкости XL",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_xl",
+      "text": "Эта улучшенная версия помазания держится в шестнадцать раз дольше. $(br2)Накладывает: Deft Hands I (4096 выстрелов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Алкахест ловкости III",
+      "recipe": "bloodmagic:alchemytable/quick_draw_anointment_3",
+      "text": "Эта улучшенная версия помазания снижает время натяжения на 67%. $(br2)Накладывает: Deft Hands III (256 выстрелов)"
+    }
+  ]
+}

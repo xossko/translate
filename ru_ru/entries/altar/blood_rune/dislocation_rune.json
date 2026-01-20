@@ -1,0 +1,25 @@
+{
+  "name": "Руна смещения",
+  "icon": "bloodmagic:dislocationrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна смещения$() увеличивает скорость перекачки $(blood)Сущности жизни$() в алтарь и из него (при работе с внешними резервуарами) мультипликативно на +20% за руну."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_displacement"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_displacement_2",
+      "text": "С помощью $(item)Нетеритового лома$() и $(item)Замысловатых деталей адской кузни$() (добываются в $(l:bloodmagic:dungeons/endless_realm)Царстве Демонов$(/l)) можно удвоить силу $(item)Руны смещения$(): она будет давать +40% мультипликативно за руну."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/displacement",
+      "text": "Если передумаете, рецепт можно обратить в ARC."
+    }
+  ]
+}

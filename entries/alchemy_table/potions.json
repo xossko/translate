@@ -1,0 +1,109 @@
+{
+  "name": "Зельеварение",
+  "icon": "bloodmagic:alchemy_flask",
+  "category": "bloodmagic:alchemy_table",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Основы $(thing)зельеварения$() известны всем и каждому. Даже обычные клирики и ведьмы хорошо знают базу: возьмите горсть не самых частых ингредиентов, смешайте их в правильных пропорциях — и употребите результат (зажав нос, если потребуется) или швырните его во врагов."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Однако добавление $(blood)Сущности жизни$() и, откровенно говоря, гениальной сангвимантии позволило вам разогнать процесс до предела. $(br2)Напитывая обычные $(item)Стеклянные бутылочки$() своей силой, вы можете хранить куда больше, чем один глоток, а с помощью разных $(item)Катализаторов$() вы научились объединять несколько эффектов в одной фляге так, чтобы они не превращались в кашу и не отменяли друг друга."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Алхимическая фляга",
+      "recipe": "bloodmagic:altar/alchemy_flask",
+      "text": "Крепкая фляга, куда вместится гораздо больше, чем в любую жалкую бутылочку!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Разумеется, бутылочка — какой бы продвинутой она ни была — бесполезна без того, чем её наполнить. $(br2)Помимо всех привычных $(thing)эффектов$(), таких как $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/water_breathing)Подводное дыхание$(/l), $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/regeneration)Регенерация$(/l) или $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Ночное зрение$(/l), мы также довели до совершенства целый ряд других, более специализированных рецептов — например $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Полёт$(/l), $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/obsidian_cloak)Обсидиановый плащ$(/l) или даже $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/passive)Пассивность$(/l). Эти и многие другие зелья описаны дальше в книге."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:alchemy_flask",
+      "text": "Когда вы израсходуете любую алхимическую флягу, просто промойте её и снова наполните водой — и получите свежую пустую флягу, готовую к работе."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "У фляг есть свои аналоги $(thing)взрывных$() и $(thing)туманных зелий$() — смотрите на следующей странице. $(br2)$(thing)Туманные зелья$() можно объединить с 8 $(l:bloodmagic:demon_will/demonic_items/throwing_daggers#amethyst_throwing_dagger)Аметистовыми метательными кинжалами$(/l) в $(item)Алхимической реакционной камере$(), чтобы получить $(item)Аметистовые метательные кинжалы с эффектом$(). Любая сущность, получившая удар таким кинжалом, перенесёт на себя эффекты зелья."
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "Взрывная алхимическая фляга",
+      "a.recipe": "bloodmagic:flask/flask_splash",
+      "b.heading": "Туманная алхимическая фляга",
+      "b.recipe": "bloodmagic:flask/flask_lingering"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Возможно, вы помните, что можно сделать несколько $(thing)эффектов$() в одной $(item)фляге$(). К счастью, это проще простого. Просто сварите зелье и используйте получившуюся флягу вместо пустой фляги во второй варке. Например, если вы сделали флягу $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Прыжков$(/l), а затем взяли её как ингредиент для фляги $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Ночного зрения$(/l), то в итоге получите 8‑дозовую флягу, которая при каждом глотке даёт $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/bounce)Прыжки$(/l) и $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Ночное зрение$(/l)!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Дальше — $(item)катализаторы$(). Их несколько видов, и у каждого свои эффекты, так что начнём с трёх самых простых: $(item)Простой катализатор$(), $(item)Малый катализатор силы$() и $(item)Малый катализатор продления$(). Первый — самый прямолинейный: он служит основой почти для каждого алхимического зелья, примерно как $(item)Адский нарост$() для обычных зелий."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Простой катализатор",
+      "recipe": "bloodmagic:alchemytable/simple_catalyst",
+      "text": "Хорошая основа почти для любого эффекта. Запасайтесь — их понадобится много."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Малый катализатор силы",
+      "recipe": "bloodmagic:alchemytable/mundane_power",
+      "text": "Катализаторы силы увеличивают мощность самого верхнего эффекта во фляге, но уменьшают его длительность. Это примерно аналог $(item)Светокамня$() в обычном зельеварении. Если самый недавно добавленный эффект не принимает катализатор, он попытается усилить второй сверху и так далее."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Малый катализатор продления",
+      "recipe": "bloodmagic:alchemytable/mundane_lengthening",
+      "text": "Катализаторы продления увеличивают длительность самого верхнего эффекта во фляге. Это примерно аналог $(item)Редстоуна$() в обычном зельеварении. Если самый недавно добавленный эффект не принимает катализатор, он попытается усилить второй сверху и так далее."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Комбинационный катализатор",
+      "recipe": "bloodmagic:alchemytable/combinational",
+      "text": "$(item)Комбинационные катализаторы$() — штука более нишевая: они берут два заданных эффекта и синтезируют из них третий, родственный эффект. Например, фляга с $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/suspended)Подвешенностью$(/l) и $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/levitation)Левитацией$(/l) после варки с этим катализатором превратится во флягу $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/flight)Полёта$(/l)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Слабый наполнитель",
+      "recipe": "bloodmagic:alchemytable/weak_filling",
+      "text": "Наполнители позволяют обновить содержимое фляги, но ценой потери части эффектов: слабый наполнитель сохраняет только самый верхний эффект во фляге. Если нужно сохранить другой эффект, используйте $(item)Простой циклический катализатор.$()"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Простой циклический катализатор",
+      "recipe": "bloodmagic:alchemytable/cycling_catalyst",
+      "text": "Циклический катализатор позволяет менять порядок эффектов во фляге — а значит, выбирать, какой эффект будет изменён другим катализатором или наполнителем."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Зельеварение 201",
+      "anchor": "average_potions",
+      "text": "Если приготовленные вами зелья всё ещё кажутся слабоватыми, возможно, пора немного попутешествовать? С $(item)Светящимися ягодами$(), $(item)Булыжным глубинным сланцем$() и щепоткой $(l:bloodmagic:dungeons/demonite)Песка адской ковки$(/l) вы сможете значительно увеличить длительность и мощность своих фляг."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Усиленный катализатор",
+      "recipe": "bloodmagic:alchemytable/strengthened_catalyst",
+      "text": "Более мощная основа для более мощных катализаторов."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Стандартное продление",
+      "recipe": "bloodmagic:alchemytable/average_lengthening",
+      "text": "Стандартный катализатор продления увеличит длительность верхнего эффекта с 3:00 до 21:20. Умножьте это на 8 доз в каждой фляге — и получится чертовски долго!"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Стандартный катализатор силы",
+      "recipe": "bloodmagic:alchemytable/average_power",
+      "text": "Стандартный катализатор силы — это прокачанная версия малого катализатора силы: он позволяет получить эффекты до III уровня во фляге, но сокращает длительность до всего 45 секунд на дозу."
+    }
+  ]
+}

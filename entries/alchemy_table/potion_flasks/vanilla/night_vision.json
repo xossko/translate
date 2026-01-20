@@ -1,0 +1,13 @@
+{
+  "name": "Ночное зрение",
+  "icon": "minecraft:potion{Potion:\"minecraft:night_vision\"}",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Ночное зрение",
+      "recipe": "bloodmagic:alchemytable/potion_night_vision",
+      "text": "Позволяет видеть в темноте как днём."
+    }
+  ]
+}

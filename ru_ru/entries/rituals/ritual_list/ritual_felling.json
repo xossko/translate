@@ -1,0 +1,27 @@
+{
+  "name": "Грохот дровосека",
+  "icon": "minecraft:oak_sapling",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Грохот дровосека",
+      "multiblock_id": "bloodmagic:felling",
+      "text": "Используй $(l:bloodmagic:rituals/ritual_diviner)Ритуальный дивинер$(/l) для более простого строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "felling"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "felling",
+      "page_type": "fellingRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "felling",
+      "page_type": "chest"
+    }
+  ]
+}

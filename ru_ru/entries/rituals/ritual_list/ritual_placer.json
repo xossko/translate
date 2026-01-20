@@ -1,0 +1,27 @@
+{
+  "name": "Владения заполнятеля",
+  "icon": "minecraft:dispenser",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "patchouli:multiblock",
+      "name": "Владения заполнятеля",
+      "multiblock_id": "bloodmagic:placer",
+      "text": "Используй $(l:bloodmagic:rituals/ritual_diviner)Ритуальный дивинер$(/l) для более простого строительства."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "placer"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "placer",
+      "page_type": "placerRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "placer",
+      "page_type": "chest"
+    }
+  ]
+}

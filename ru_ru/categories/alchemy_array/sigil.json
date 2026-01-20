@@ -1,0 +1,7 @@
+{
+  "name": "Сигилы",
+  "description": "$(item)Сигилы$() формируются с использованием $(l:bloodmagic:alchemy_array/functional_arrays/crafting_array)Alchemy Array$(), некоторой формы $(item)Reagent$() и $(l:bloodmagic:altar/slates)Slate$(). ",
+  "icon": "bloodmagic:divinationsigil",
+  "parent": "bloodmagic:alchemy_array",
+  "sortnum": 1
+}

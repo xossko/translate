@@ -1,0 +1,37 @@
+{
+  "name": "Святая вода",
+  "icon": "bloodmagic:holy_water_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Святая вода",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment",
+      "text": "Временно увеличивает урон в ближнем бою по нежити на +5. $(br2)Применимо к: инструментам, мечам.$(br2)Накладывает: Holy Light I (256 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Святая вода L",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_l",
+      "text": "Эта улучшенная версия помазания держится в четыре раза дольше. $(br2)Накладывает: Holy Light I (1024 удара)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Святая вода II",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_2",
+      "text": "Эта улучшенная версия помазания увеличивает урон по нежити на +10. $(br2)Накладывает: Holy Light II (256 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Святая вода XL",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_xl",
+      "text": "Эта улучшенная версия помазания держится в шестнадцать раз дольше. $(br2)Накладывает: Holy Light I (4096 ударов)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Святая вода III",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_3",
+      "text": "Эта улучшенная версия помазания увеличивает урон по нежити на +15. $(br2)Накладывает: Holy Light III (256 ударов)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Снижение ближнего боя",
+  "icon": "minecraft:iron_sword",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_downgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Уменьшает урон в ближнем бою. Более высокие уровни еще больше уменьшают урон."
+    },
+    {
+      "type": "bloodmagic:living_armour_downgrade",
+      "a.recipe": "bloodmagic:downgrade/melee_decrease",
+      "b.upgrade": "bloodmagic:melee_decrease"
+    }
+  ]
+}

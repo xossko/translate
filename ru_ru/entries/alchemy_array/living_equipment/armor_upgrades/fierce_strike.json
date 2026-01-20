@@ -1,0 +1,15 @@
+{
+  "name": "Свирепый удар",
+  "icon": "minecraft:iron_sword",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Эффект: наносит дополнительный урон при атаке. Максимум +5 дополнительных сердец урона. $(br2)Тренируется: Нанесение урона по сущностям. $(br2)Максимальный уровень: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:melee_attack"
+    }
+  ]
+}

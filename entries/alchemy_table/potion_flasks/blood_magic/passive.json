@@ -1,0 +1,13 @@
+{
+  "name": "Пассивность",
+  "icon": "bloodmagic:potion_planar_binding",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Пассивность",
+      "recipe": "bloodmagic:alchemytable/potion_planar_binding",
+      "text": "Превращает враждебных мобов в мирных."
+    }
+  ]
+}
