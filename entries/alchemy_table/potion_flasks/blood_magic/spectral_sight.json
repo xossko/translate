@@ -1,0 +1,16 @@
+{
+  "name": "Спектральное зрение",
+  "icon": "bloodmagic:potion_spectral_sight",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Позволяет видеть мобов сквозь стены! Не может быть получен обычным зельеварением, только путём объединения $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/night_vision)Ночного зрения$(/l) и $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/invisibility)Невидимости$(/l) с помощью $(l:bloodmagic:alchemy_table/potions#combinational)Комбинационного катализатора$(/l)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Комбинационный катализатор",
+      "recipe": "bloodmagic:alchemytable/combinational"
+    }
+  ]
+}

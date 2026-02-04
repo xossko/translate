@@ -1,0 +1,23 @@
+{
+  "name": "Бесконечное Царство",
+  "icon": "bloodmagic:ritualstone",
+  "category": "bloodmagic:dungeons",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Бесконечное Царство$() — это плоскость существования, населённая всевозможными демонами, а также множеством руин и сокровищ. Попасть туда можно через $(l:bloodmagic:dungeons/lobby)Лобби$(/l), которое создаётся с помощью $(l:bloodmagic:ritual/portal)Ритуала портала$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чем дальше вы забираетесь от $(l:bloodmagic:dungeons/lobby)лобби$(/l), тем сильнее становятся демоны. Но и награды тоже. Убедитесь, что у вас есть $(l:bloodmagic:dungeons/keys)Ключ в Бесконечное Царство$(/l), чтобы иметь возможность вернуться в $(l:bloodmagic:dungeons/lobby)лобби$(/l) в любой момент."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Царство Демонов$() заселено разными враждебными демонами, каждый из которых обладает уникальными способностями. $(li)$(l:bloodmagic:demon_will/demonic_mobs#biconveyer)Биконвейер$(/l) — медленный, но очень прочный демон с большим запасом здоровья.$(li)$(l:bloodmagic:demon_will/demonic_mobs#hoarder)Скопидом$(/l) — быстрый и увёртливый демон.$(li)$(l:bloodmagic:demon_will/demonic_mobs#slippery)Скользкий$(/l) — телепортируется, чтобы избежать атак.$(li)$(l:bloodmagic:demon_will/demonic_mobs#small_earthy)Малый земляной$(/l) — медленный, но стреляет снарядами."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(l:bloodmagic:demon_will/demonic_mobs#freezing)Морозный$(/l) — замедляет игроков при атаке.$(li)$(l:bloodmagic:demon_will/demonic_mobs#shadow)Теневой$(/l) — невидим, пока не атакует.$(li)$(l:bloodmagic:demon_will/demonic_mobs#spikes)Шипастый$(/l) — наносит урон при атаке на него."
+    }
+  ]
+}

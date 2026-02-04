@@ -1,0 +1,17 @@
+{
+  "name": "Фильтр чаров",
+  "icon": "bloodmagic:enchantment_item_filter",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "heading": "Фильтр чаров",
+      "recipe": "bloodmagic:enchantment_item_filter",
+      "text": "$(item)Фильтр чаров$() фильтрует предметы по чарам."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Настройте его через интерфейс, указав нужные чары."
+    }
+  ]
+}

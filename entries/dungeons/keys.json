@@ -1,0 +1,23 @@
+{
+  "name": "Ключи",
+  "icon": "bloodmagic:dungeon_simple_key",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:dungeon_simple_key": 0,
+    "bloodmagic:dungeon_home_key": 1
+  },
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Простой ключ",
+      "recipe": "bloodmagic:altar/dungeon_simple_key",
+      "text": "$(item)Простой ключ$() позволяет открыть запертые двери в $(thing)Царстве Демонов$()."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Ключ в Бесконечное Царство",
+      "recipe": "bloodmagic:altar/dungeon_home_key",
+      "text": "$(item)Ключ в Бесконечное Царство$() позволяет телепортироваться в $(l:bloodmagic:dungeons/lobby)лобби$(/l) из любой точки $(thing)Царства Демонов$()."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Аура Воли",
+  "icon": "bloodmagic:aura_node_master",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Аура Воли$() — это невидимое облако $(raw)Воли$(), которое накапливается в мире при убийстве демонов. Используйте $(item)Узлы ауры$() для взаимодействия с этой $(raw)Волей$()."
+    }
+  ]
+}

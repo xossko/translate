@@ -1,0 +1,64 @@
+{
+  "name": "Взрывные заряды",
+  "icon": "bloodmagic:explosive_charge",
+  "category": "bloodmagic:demon_will",
+  "extra_recipe_mappings": {
+    "bloodmagic:corrosive_crystal": 0,
+    "bloodmagic:destructive_crystal": 0,
+    "bloodmagic:vengeful_crystal": 0,
+    "bloodmagic:steadfast_crystal": 0,
+    "bloodmagic:explosive_charge": 1,
+    "bloodmagic:corrosive_charge": 1,
+    "bloodmagic:destructive_charge": 1,
+    "bloodmagic:vengeful_charge": 1,
+    "bloodmagic:steadfast_charge": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Когда $(l:bloodmagic:demon_will/sentient_tools#crystalline_tools)Кристаллические инструменты$(/l) начинают казаться недостаточно эффективными для построения грандиозных проектов (или некоторых грандиозных взрывов), пришло время разработать $(thing)Взрывные заряды$(). Объединяя $(l:bloodmagic:demon_will/sentient_tools#crystalline_tools)Кристаллы Воли$(/l) с $(item)Демоническим камнем$() и $(item)Порохом$(), можно создать мощный взрывчатый инструмент."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Взрывной заряд",
+      "recipe": "bloodmagic:explosive_charge",
+      "text": "Базовый $(item)Взрывной заряд$() использует $(raw)Чистую Волю$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы использовать заряд, просто нажмите [$(k:use)] и он будет брошен как снежок. При попадании в блок заряд взорвётся, разрушая близлежащие блоки. $(br2)Если заряд помещён в слот для $(l:bloodmagic:alchemy_table/anointments)помазания$(), он может быть применён к некоторым предметам, чтобы дать им временные бонусы."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Как и $(l:bloodmagic:demon_will/sentient_tools#crystalline_tools)Кристаллы Воли$(/l), $(item)Взрывные заряды$() могут быть созданы из различных типов Воли (от $(corrosive)Разрушающей$() до $(vengeful)Мстительной$()), что придаёт им различные свойства. $(br2)$(raw)Чистые$() заряды взрываются с радиусом 2x2x2."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Разрушающий заряд",
+      "recipe": "bloodmagic:corrosive_charge",
+      "text": "$(corrosive)Разрушающие$() заряды взрываются с радиусом 3x2x3 и могут разрушать твёрдые блоки, такие как $(item)Обсидиан$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Разрушительный заряд",
+      "recipe": "bloodmagic:destructive_charge",
+      "text": "$(destructive)Разрушительные$() заряды взрываются с радиусом 3x3x3."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Мстительный заряд",
+      "recipe": "bloodmagic:vengeful_charge",
+      "text": "$(vengeful)Мстительные$() заряды взрываются с радиусом 4x3x4, но не наносят урона мобам и игрокам."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Непоколебимый заряд",
+      "recipe": "bloodmagic:steadfast_charge",
+      "text": "$(steadfast)Непоколебимые$() заряды взрываются с радиусом 3x4x3."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Взрывные заряды можно применять к киркам, лопатам, топорам и мечам. При добыче блока инструментом с применённым зарядом произойдёт взрыв, как обычно. $(br2)При применении к мечу и ударе по мобу, взрыв произойдёт на мобе. $(br2)Различные типы зарядов действуют одинаково при применении к инструментам."
+    }
+  ]
+}

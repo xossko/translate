@@ -1,0 +1,6 @@
+{
+  "name": "Кровавые руны",
+  "description": "Есть много разных рун. ",
+  "icon": "bloodmagic:blankrune",
+  "parent": "bloodmagic:altar"
+}

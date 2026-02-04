@@ -1,0 +1,13 @@
+{
+  "name": "Душевная кузня",
+  "icon": "bloodmagic:soul_forge",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Душевная кузня",
+      "recipe": "bloodmagic:altar/soul_forge",
+      "text": "$(item)Душевная кузня$() используется для создания $(l:bloodmagic:demon_will/demonic_items/sentient_sword)Разумного оружия$(/l) и $(l:bloodmagic:demon_will/demonic_items/sentient_tools)инструментов$(/l)."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Подвешенность",
+  "icon": "bloodmagic:potion_suspended",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Подвешенность",
+      "recipe": "bloodmagic:alchemytable/potion_suspended",
+      "text": "Позволяет контролировать скорость падения, удерживая кнопку прыжка."
+    }
+  ]
+}

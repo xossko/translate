@@ -1,0 +1,13 @@
+{
+  "name": "Фильтр по модам",
+  "icon": "bloodmagic:mod_item_filter",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "heading": "Фильтр по модам",
+      "recipe": "bloodmagic:mod_item_filter",
+      "text": "$(item)Фильтр по модам$() фильтрует предметы по их моду-источнику."
+    }
+  ]
+}

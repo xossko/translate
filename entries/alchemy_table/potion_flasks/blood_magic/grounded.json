@@ -1,0 +1,13 @@
+{
+  "name": "Приземлённость",
+  "icon": "bloodmagic:potion_grounded",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Приземлённость",
+      "recipe": "bloodmagic:alchemytable/potion_grounded",
+      "text": "Отменяет любой урон от падения, но отключает все модификаторы прыжка."
+    }
+  ]
+}

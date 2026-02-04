@@ -1,0 +1,17 @@
+{
+  "name": "Измеритель ауры",
+  "icon": "bloodmagic:aura_gauge",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "heading": "Измеритель ауры",
+      "recipe": "bloodmagic:aura_gauge",
+      "text": "$(item)Измеритель ауры$() показывает количество $(raw)Воли$() в $(l:bloodmagic:demon_will/will_manipulation/aura)Ауре$(/l) вокруг вас."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы использовать, просто держите его в руках и наблюдайте за показаниями."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Адская ковка",
+  "icon": "bloodmagic:raw_demonite",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:raw_demonite": 1,
+    "bloodmagic:ingot_demonite": 1,
+    "bloodmagic:hellforged_block": 1,
+    "bloodmagic:dungeon_ore": 1
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "В $(thing)Царстве Демонов$() существует редкая и экзотическая руда, известная как $(item)Адская ковка$(). Эта руда отличается особой прочностью и может быть добыта только алмазной киркой или лучше. После плавки она превращается в $(item)Слиток адской ковки$()."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "bloodmagic:ingot_demonite_smelting",
+      "recipe2": "bloodmagic:ingot_demonite_blasting"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Далеко не самый полезный материал сам по себе, он становится куда более полезным при обработке в $(l:bloodmagic:utility/hellfire_forge)Адской кузне$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:hellforged_block"
+    }
+  ]
+}

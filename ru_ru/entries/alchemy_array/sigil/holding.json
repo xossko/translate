@@ -1,0 +1,24 @@
+{
+  "name": "Сигил хранения",
+  "icon": "bloodmagic:sigilofholding",
+  "category": "bloodmagic:alchemy_array/sigil",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Этот сигил может хранить до 5 других $(item)Сигилов$(), давая их пассивные эффекты и позволяя активировать их по мере необходимости.$(br)Нажмите [$(k:bloodmagic.keybind.open_holding)], удерживая сигил, чтобы открыть его инвентарь.$() $(br)Нажмите [$(k:bloodmagic.keybind.cycle_holding_pos)] чтобы перелистнуть вперёд, или [$(k:bloodmagic.keybind.cycle_holding_neg)] чтобы перелистнуть назад.$() Также работает колесо мыши при удержании [$(k:sneak)]."
+    },
+    {
+      "type": "bloodmagic:crafting_2-step_sigil",
+      "alchemy_table.heading": "Реагент хранения",
+      "alchemy_table.recipe": "bloodmagic:alchemytable/reagent_holding",
+      "array.heading": "Сигил хранения",
+      "array.recipe": "bloodmagic:array/holdingsigil",
+      "array.text": "$(italic)Приём сигналов$()"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "Если установлен $(thing)Curios API$(), этот $(item)Сигил$() можно носить как аксессуар. Если хочется больше аксессуаров, используйте $(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)слотовый апгрейд$(/l) для $(l:bloodmagic:alchemy_array/living_equipment/living_basics)Живой брони$(/l)."
+    }
+  ]
+}

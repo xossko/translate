@@ -1,0 +1,16 @@
+{
+  "name": "Твёрдый плащ",
+  "icon": "bloodmagic:potion_heavy_cloak",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Даёт прочность! Не может быть получен обычным зельеварением, только путём объединения $(l:bloodmagic:alchemy_table/potion_flasks/vanilla/fire_resistance)Огнестойкости$(/l) и $(l:bloodmagic:alchemy_table/potion_flasks/blood_magic/heavy_heart)Тяжёлого сердца$(/l) с помощью $(l:bloodmagic:alchemy_table/potions#combinational)Комбинационного катализатора$(/l)."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Комбинационный катализатор",
+      "recipe": "bloodmagic:alchemytable/combinational"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Разумные инструменты",
+  "icon": "bloodmagic:sentient_pickaxe",
+  "category": "bloodmagic:demon_will",
+  "extra_recipe_mappings": {
+    "bloodmagic:sentient_pickaxe": 0,
+    "bloodmagic:sentient_axe": 2,
+    "bloodmagic:sentient_shovel": 4,
+    "bloodmagic:corrosive_crystal": 6,
+    "bloodmagic:destructive_crystal": 6,
+    "bloodmagic:vengeful_crystal": 6,
+    "bloodmagic:steadfast_crystal": 6
+  },
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Разумная кирка",
+      "recipe": "bloodmagic:altar/sentient_pickaxe",
+      "text": "$(item)Разумные инструменты$() используют $(raw)Волю$() из $(l:bloodmagic:demon_will/will_manipulation/tartaric_gems)Тартарического самоцвета$(/l) для добычи блоков."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Когда $(raw)Воли$() достаточно, $(item)Разумные инструменты$() могут добывать блоки зоной 3x3, как у $(item)Алмазных инструментов$(). Если $(raw)Воли$() недостаточно, они будут работать как $(item)Железные инструменты$()."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Разумный топор",
+      "recipe": "bloodmagic:altar/sentient_axe"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Разумный топор$() использует $(raw)Волю$() для рубки деревьев. При наличии достаточного количества $(raw)Воли$() рубит всё дерево целиком."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Разумная лопата",
+      "recipe": "bloodmagic:altar/sentient_shovel"
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "crystalline_tools",
+      "text": "Когда демон убит инструментом, содержащим $(raw)Волю$(), эта $(raw)Воля$() кристаллизуется в $(item)Кристалл Воли$(). Эти кристаллы содержат тот же тип $(raw)Воли$(), что и убитый демон, и могут быть использованы для создания $(l:bloodmagic:demon_will/demonic_items/explosive_charges)Взрывных зарядов$(/l) и других предметов."
+    }
+  ]
+}

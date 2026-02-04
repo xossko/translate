@@ -1,0 +1,111 @@
+{
+  "name": "Ритм стучащей наковальни",
+  "icon": "minecraft:crafting_table",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "Ритм стучащей наковальни",
+      "multiblock_id": "bloodmagic:crafting",
+      "text": "Для более простого строительства используй $(l:bloodmagic:rituals/ritual_diviner#dusk)Ритуальный дивинер [Сумерки]$(/l)."
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crafting",
+      "text_overrides": [
+        ["Item Filter", "l:bloodmagic:demon_will/item_routing/standard_item_filter"]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Ритм стучащей наковальни$() — мощный и универсальный ритуал, позволяющий автоматически крафтить обычные рецепты верстака, а также рецепты с $(l:bloodmagic:alchemy_table/alchemy_table)Алхимического стола$() или $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Адской кузни$() (если она правильно улучшена). Однако настройка может быть немного сложной, поэтому ниже — небольшое руководство. $(br2)Каждый ритуал может обслуживать ровно один рецепт."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Сначала нужно указать рецепт, который ритуал должен крафтить. Для этого используется фильтр предметов (Item Filter). $(br2)Можно использовать разные типы фильтров, однако ритуал принимает только один фильтр одновременно — все дополнительные будут игнорироваться."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Поддерживаются следующие фильтры: $(li)Standard Item Filter: точно задаёт, какой предмет использовать в каждом слоте. $(li)Tag Item Filter: использует $(thing)теги$() для выбора предметов. Например, если рецепт принимает любой камень (андезит, гранит и т.п.), можно указать forge:stone в фильтре. $(li)Mod Item Filter: пытается использовать любой предмет из выбранного мода в этом слоте."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/autocraft/filter_pickaxe.png"
+      ],
+      "title": "Пример фильтра",
+      "border": true,
+      "text": "Standard Item Filter, настроенный на автокрафт $(item)каменных кирок$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Далее фильтр нужно разместить на ритуале. На изображении используется $(item)рамка$(), но можно использовать и сундук. Обрати внимание: если положить в сундук несколько $(item)фильтров$(), будет использован только первый. $(br2)По умолчанию входной и выходной сундуки находятся в одной и той же точке; однако это можно изменить с помощью $(l:bloodmagic/rituals/ritual_tinkerer)Настройщика ритуалов.$() Это удобно для рецептов, которые повторно используют компоненты, например $(l:bloodmagic:altar/soul_network)кровавую сферу$()."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/autocraft/default_placement.png",
+        "bloodmagic:images/entries/ritual/autocraft/optional_placement.png"
+      ],
+      "title": "Размещение фильтра",
+      "border": true,
+      "text": "Фильтр и сундук в стандартных местах, и $(l:bloodmagic/rituals/ritual_tinkerer)настроенный$() ритуал с раздельными входным и выходным сундуками"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Если снабдить ритуал $(steadfast)стойкой$() или $(corrosive)едкой$() волей, он будет пытаться автокрафтить через связанную $(l:bloodmagic:demon_will/will_manipulation/soul_forge)Адскую кузню$() или $(l:bloodmagic:alchemy_table/alchemy_table)Алхимический стол$() соответственно. Эти рецепты бесформенные, но если требуется 2 одинаковых предмета, их придётся указать в фильтре дважды."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/ritual/autocraft/catalyst_recipe.png"
+      ],
+      "title": "Алхимический фильтр",
+      "border": true,
+      "text": "Фильтр, настроенный на крафт $(l:bloodmagic:alchemy_table/potions)простых катализаторов$()."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "recipeRange",
+      "text_overrides": [
+        ["Item Filter", "l:bloodmagic:demon_will/item_routing/standard_item_filter"]
+      ],
+      "text": "Поддерживаются $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Standard$(), $(l:bloodmagic:demon_will/item_routing/tag_item_filter)Tag$() и $(l:bloodmagic:demon_will/item_routing/mod_item_filter)Mod Item Filters$()."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "inputRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "outputRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "outputFilterRange",
+      "text_overrides": [
+        ["filter", "l:bloodmagic:demon_will/item_routing/standard_item_filter"]
+      ],
+      "text": "Поддерживаются $(l:bloodmagic:demon_will/item_routing/standard_item_filter)Standard$(), $(l:bloodmagic:demon_will/item_routing/tag_item_filter)Tag$() и $(l:bloodmagic:demon_will/item_routing/mod_item_filter)Mod Item Filters$()."
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "hellforgedRange"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "steadfast"
+    },
+    {
+      "type": "bloodmagic:ritual_data",
+      "ritual": "crafting",
+      "page_type": "corrosive"
+    }
+  ]
+}

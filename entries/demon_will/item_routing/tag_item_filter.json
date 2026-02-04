@@ -1,0 +1,17 @@
+{
+  "name": "Фильтр по тегам",
+  "icon": "bloodmagic:tag_item_filter",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "heading": "Фильтр по тегам",
+      "recipe": "bloodmagic:tag_item_filter",
+      "text": "$(item)Фильтр по тегам$() фильтрует предметы по их тегам в игре."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Настройте его через интерфейс, указав нужные теги."
+    }
+  ]
+}

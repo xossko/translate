@@ -1,0 +1,50 @@
+{
+  "name": "Тартарические самоцветы",
+  "icon": "bloodmagic:petty_tartaric_gem",
+  "category": "bloodmagic:demon_will",
+  "extra_recipe_mappings": {
+    "bloodmagic:petty_tartaric_gem": 0,
+    "bloodmagic:lesser_tartaric_gem": 2,
+    "bloodmagic:common_tartaric_gem": 4,
+    "bloodmagic:greater_tartaric_gem": 6
+  },
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Малый самоцвет",
+      "recipe": "bloodmagic:altar/petty_tartaric_gem",
+      "text": "$(item)Тартарические самоцветы$() хранят $(raw)Волю$() для использования в различных рецептах и предметах."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы наполнить самоцвет $(raw)Волей$(), держите его в инвентаре при убийстве демонов. $(raw)Воля$() автоматически попадёт в самоцвет."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Меньший самоцвет",
+      "recipe": "bloodmagic:altar/lesser_tartaric_gem"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Меньший Тартарический самоцвет$() может хранить больше $(raw)Воли$(), чем малый."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Обычный самоцвет",
+      "recipe": "bloodmagic:altar/common_tartaric_gem"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Обычный Тартарический самоцвет$() хранит значительно больше $(raw)Воли$()."
+    },
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Великий самоцвет",
+      "recipe": "bloodmagic:altar/greater_tartaric_gem"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Великий Тартарический самоцвет$() — самый вместительный самоцвет для хранения $(raw)Воли$()."
+    }
+  ]
+}

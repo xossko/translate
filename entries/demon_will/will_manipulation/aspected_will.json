@@ -1,0 +1,41 @@
+{
+  "name": "Аспектная Воля",
+  "icon": "bloodmagic:corrosive_will",
+  "category": "bloodmagic:demon_will",
+  "extra_recipe_mappings": {
+    "bloodmagic:corrosive_will": 0,
+    "bloodmagic:destructive_will": 0,
+    "bloodmagic:vengeful_will": 0,
+    "bloodmagic:steadfast_will": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Помимо $(raw)Чистой Воли$(), существуют четыре типа $(thing)Аспектной Воли$(): $(corrosive)Разрушающая$(), $(destructive)Разрушительная$(), $(vengeful)Мстительная$() и $(steadfast)Непоколебимая$(). Каждый тип обладает уникальными свойствами."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Чтобы получить Аспектную Волю, убивайте демонов с помощью предметов, содержащих $(l:bloodmagic:demon_will/will_manipulation/tartaric_gems)Тартарический самоцвет$(/l) с соответствующим типом Воли."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Разрушающая Воля",
+      "recipe": "bloodmagic:corrosive_will"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Разрушительная Воля",
+      "recipe": "bloodmagic:destructive_will"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Мстительная Воля",
+      "recipe": "bloodmagic:vengeful_will"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Непоколебимая Воля",
+      "recipe": "bloodmagic:steadfast_will"
+    }
+  ]
+}

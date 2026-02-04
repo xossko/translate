@@ -1,0 +1,17 @@
+{
+  "name": "Разумный меч",
+  "icon": "bloodmagic:sentient_sword",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Разумный меч",
+      "recipe": "bloodmagic:altar/sentient_sword",
+      "text": "$(item)Разумный меч$() — это меч, созданный из $(l:bloodmagic:demon_will/will_manipulation/tartaric_gems)Тартарического самоцвета$(/l), который использует $(raw)Волю$() для нанесения дополнительного урона."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "При каждом ударе меч расходует небольшое количество $(raw)Воли$() из $(l:bloodmagic:demon_will/will_manipulation/tartaric_gems)Тартарического самоцвета$(/l), чтобы нанести дополнительный урон. Если $(raw)Воли$() недостаточно, меч не нанесёт дополнительного урона."
+    }
+  ]
+}

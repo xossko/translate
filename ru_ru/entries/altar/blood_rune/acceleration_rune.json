@@ -1,0 +1,25 @@
+{
+  "name": "Руна ускорения",
+  "icon": "bloodmagic:accelerationrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Руна ускорения$() повышает частоту срабатывания некоторых операций. Обычно эффекты $(l:bloodmagic:altar/blood_rune/charging_rune)Руны зарядки$(/l) и $(l:bloodmagic:altar/blood_rune/dislocation_rune)Руны смещения$(/l) происходят раз в 20 тиков, но каждая руна ускорения уменьшает задержку на 1 тик (вплоть до 1 операции за тик)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_acceleration"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_acceleration_2",
+      "text": "С помощью $(item)Нетеритового лома$() и $(item)Замысловатых частей адской кузни$() (добываются в $(l:bloodmagic:dungeons/endless_realm)Царстве Демонов$(/l)) можно удвоить силу $(item)Руны ускорения$(): она будет убирать 2 тика на руну вместо 1, освобождая место вокруг алтаря."
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/acceleration",
+      "text": "Если передумаете, рецепт можно обратить в ARC."
+    }
+  ]
+}

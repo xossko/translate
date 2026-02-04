@@ -1,0 +1,45 @@
+{
+  "name": "Катализаторы Воли",
+  "icon": "bloodmagic:corrosive_catalyst",
+  "category": "bloodmagic:demon_will",
+  "extra_recipe_mappings": {
+    "bloodmagic:corrosive_catalyst": 0,
+    "bloodmagic:destructive_catalyst": 2,
+    "bloodmagic:vengeful_catalyst": 4,
+    "bloodmagic:steadfast_catalyst": 6
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Катализаторы Воли$() используются для преобразования $(raw)Воли$() в $(l:bloodmagic:demon_will/will_manipulation/tartaric_gems)Тартарических самоцветах$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Разрушающий катализатор",
+      "recipe": "bloodmagic:corrosive_catalyst"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Поместите $(item)Катализатор$() в $(l:bloodmagic:demon_will/will_manipulation/tartaric_gems)Тартарический самоцвет$(/l), чтобы изменить тип $(raw)Воли$(), которую он собирает."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Разрушительный катализатор",
+      "recipe": "bloodmagic:destructive_catalyst"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Каждый тип катализатора соответствует одному из типов $(l:bloodmagic:demon_will/will_manipulation/aspected_will)Аспектной Воли$(/l)."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Мстительный катализатор",
+      "recipe": "bloodmagic:vengeful_catalyst"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Непоколебимый катализатор",
+      "recipe": "bloodmagic:steadfast_catalyst"
+    }
+  ]
+}

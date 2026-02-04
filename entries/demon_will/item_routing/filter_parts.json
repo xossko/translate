@@ -1,0 +1,11 @@
+{
+  "name": "Компоненты фильтров",
+  "icon": "bloodmagic:filter_gem",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Базовые компоненты для создания фильтров предметов."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Яд",
+  "icon": "minecraft:potion{Potion:\"minecraft:poison\"}",
+  "category": "bloodmagic:alchemy_table/potion_flasks",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Яд I",
+      "recipe": "bloodmagic:alchemytable/potion_poison_1",
+      "text": "Наносит урон от яда со временем."
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "Яд II",
+      "recipe": "bloodmagic:alchemytable/potion_poison_2",
+      "text": "Наносит урон от яда быстрее."
+    }
+  ]
+}

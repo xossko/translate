@@ -1,0 +1,38 @@
+{
+  "name": "Узлы маршрутизации",
+  "icon": "bloodmagic:routing_node_input",
+  "category": "bloodmagic:demon_will",
+  "extra_recipe_mappings": {
+    "bloodmagic:routing_node_input": 0,
+    "bloodmagic:routing_node_output": 2,
+    "bloodmagic:routing_node_filter": 4
+  },
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "heading": "Входной узел",
+      "recipe": "bloodmagic:routing_node_input",
+      "text": "$(item)Входной узел$() извлекает предметы из инвентарей."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Установите узел на блок с инвентарём (сундук, печь и т. п.) и настройте его через интерфейс."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Выходной узел",
+      "recipe": "bloodmagic:routing_node_output",
+      "text": "$(item)Выходной узел$() помещает предметы в инвентари."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Работает аналогично входному узлу, но перемещает предметы в указанный инвентарь."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Фильтрующий узел",
+      "recipe": "bloodmagic:routing_node_filter",
+      "text": "$(item)Фильтрующий узел$() позволяет фильтровать предметы по типу."
+    }
+  ]
+}

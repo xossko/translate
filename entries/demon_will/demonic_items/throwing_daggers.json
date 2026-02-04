@@ -1,0 +1,50 @@
+{
+  "name": "Метательные кинжалы",
+  "icon": "bloodmagic:throwing_dagger_syringe",
+  "category": "bloodmagic:demon_will",
+  "extra_recipe_mappings": {
+    "bloodmagic:throwing_dagger_syringe": 0,
+    "bloodmagic:throwing_dagger_iron": 2,
+    "bloodmagic:throwing_dagger_gold": 4,
+    "bloodmagic:throwing_dagger_diamond": 6
+  },
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "heading": "Метательный кинжал-шприц",
+      "recipe": "bloodmagic:throwing_dagger_syringe",
+      "text": "$(item)Метательный кинжал-шприц$() наносит небольшой урон и высасывает кровь из цели, пополняя $(blood)LP$() в вашей $(l:bloodmagic:altar/soul_network)Сети душ$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Метательные кинжалы$() можно бросать, нажав [$(k:use)]. Они возвращаются в инвентарь после попадания в цель."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Железный метательный кинжал",
+      "recipe": "bloodmagic:throwing_dagger_iron",
+      "text": "$(item)Железный метательный кинжал$() наносит умеренный урон."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Метательные кинжалы$() можно использовать в качестве оружия ближнего боя, но они гораздо эффективнее при броске."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Золотой метательный кинжал",
+      "recipe": "bloodmagic:throwing_dagger_gold",
+      "text": "$(item)Золотой метательный кинжал$() наносит небольшой урон, но летит быстрее."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "amethyst_throwing_dagger",
+      "text": "Существует также $(item)Аметистовый метательный кинжал$(), который можно создать в $(l:bloodmagic:utility/alchemy_array#alchemy_arrays)Алхимической реакционной камере$(/l). Этот кинжал можно совместить с $(l:bloodmagic:alchemy_table/potions)Туманными зельями$(/l) для применения эффектов к целям при попадании."
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "Алмазный метательный кинжал",
+      "recipe": "bloodmagic:throwing_dagger_diamond",
+      "text": "$(item)Алмазный метательный кинжал$() наносит большой урон."
+    }
+  ]
+}

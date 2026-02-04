@@ -1,0 +1,6 @@
+{
+  "name": "Понижение уровня Живой брони",
+  "description": "Список доступных понижений Живой брони. ",
+  "icon": "bloodmagic:upgradescraps",
+  "parent": "bloodmagic:alchemy_array/living_equipment"
+}

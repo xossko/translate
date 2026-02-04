@@ -1,0 +1,13 @@
+{
+  "name": "Маршрутизатор узлов",
+  "icon": "bloodmagic:node_router",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "heading": "Маршрутизатор узлов",
+      "recipe": "bloodmagic:node_router",
+      "text": "$(item)Маршрутизатор$() управляет потоком предметов между $(l:bloodmagic:demon_will/item_routing/routing_nodes)Узлами$(/l)."
+    }
+  ]
+}

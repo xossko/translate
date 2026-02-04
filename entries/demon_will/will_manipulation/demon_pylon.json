@@ -1,0 +1,13 @@
+{
+  "name": "Демонический пилон",
+  "icon": "bloodmagic:demon_pylon",
+  "category": "bloodmagic:demon_will",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "Демонический пилон",
+      "recipe": "bloodmagic:altar/demon_pylon",
+      "text": "$(item)Демонический пилон$() хранит $(raw)Волю$() и передаёт её близлежащим устройствам."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Кристаллизованная Воля",
+  "icon": "bloodmagic:corrosive_crystal",
+  "category": "bloodmagic:demon_will",
+  "extra_recipe_mappings": {
+    "bloodmagic:corrosive_crystal": 0,
+    "bloodmagic:destructive_crystal": 0,
+    "bloodmagic:vengeful_crystal": 0,
+    "bloodmagic:steadfast_crystal": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)Кристаллы Воли$() — это твёрдая форма $(raw)Воли$(), которая выпадает при убийстве демонов с помощью $(l:bloodmagic:demon_will/demonic_items/sentient_tools)Разумных инструментов$(/l)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Используйте их для создания $(l:bloodmagic:demon_will/demonic_items/explosive_charges)Взрывных зарядов$(/l) и других предметов."
+    }
+  ]
+}
